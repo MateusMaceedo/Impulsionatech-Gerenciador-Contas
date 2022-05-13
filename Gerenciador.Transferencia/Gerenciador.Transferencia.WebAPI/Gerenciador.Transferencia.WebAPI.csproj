@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+		<PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
+		<PackageReference Include="Microsoft.FeatureManagement" Version="2.5.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Gerenciador.Transferencia.Application\Gerenciador.Transferencia.Application.csproj" />
+	  <ProjectReference Include="..\Gerenciador.Transferencia.Domain\Gerenciador.Transferencia.Domain.csproj" />
+	  <ProjectReference Include="..\Gerenciador.Transferencia.Infra\Gerenciador.Transferencia.Infra.csproj" />
+	  <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.3.1" />
+	</ItemGroup>
+
+</Project>

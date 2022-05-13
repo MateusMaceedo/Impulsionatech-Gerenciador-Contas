@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "s5GLAJIegEk+faPlixgR5LcAdgapDuOenJqjDgvFleYavuru2fKOI1fKpxpHKf2jwPGL9CwJWOD2/+UnMWi2lg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mateu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

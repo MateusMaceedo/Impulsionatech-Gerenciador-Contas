@@ -1,0 +1,10 @@
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\bin\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.deps.json
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\bin\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\bin\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.pdb
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\obj\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.csproj.AssemblyReference.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\obj\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\obj\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.AssemblyInfoInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\obj\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.AssemblyInfo.cs
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\obj\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.csproj.CoreCompileInputs.cache
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\obj\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.dll
+C:\Users\mateu\OneDrive\Área de Trabalho\Impulsiona\Impulsionatech-Gerenciador-Contas\Gerenciador.Transferencia\Gerenciador.Transferencia.Infra\obj\Debug\netcoreapp3.1\Gerenciador.Transferencia.Infra.pdb
