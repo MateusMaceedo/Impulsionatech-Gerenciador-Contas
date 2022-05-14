@@ -1,7 +1,7 @@
 Nesse projeto vamos implementar um projeto que simulação algumas funções básica de uma conta bancária.
 
-Projeto de [contas e clientes](https://github.com/MateusMaceedo/Impulsionatech-Contas-Cliente)
-Projeto de [Integração das transferencias](https://github.com/MateusMaceedo/Lambda-Integrador) 
+- Projeto de [contas e clientes](https://github.com/MateusMaceedo/Impulsionatech-Contas-Cliente)
+- Projeto de [Integração das transferencias](https://github.com/MateusMaceedo/Lambda-Integrador) 
 
 ````
 - Transferencia entre contas de um mesmo cliente
