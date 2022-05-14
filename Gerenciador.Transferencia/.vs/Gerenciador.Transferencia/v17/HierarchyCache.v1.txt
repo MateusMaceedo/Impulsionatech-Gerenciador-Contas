@@ -1,0 +1,473 @@
+﻿++Solução 'Gerenciador.Transferencia' ‎(4 de 4 projetos)
+++Gerenciador.Transferencia.Domain
+i:{00000000-0000-0000-0000-000000000000}:Gerenciador.Transferencia.Domain
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.domain\gerenciador.transferencia.domain.csproj
+++Dependências
+i:{070ec943-2d47-45c9-b597-d7291b6a9ef9}:>1560
+i:{0ef922f0-063e-4bf6-91b2-9f581c11a3a2}:>1515
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:>1470
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>1416
+i:{a00f1237-419b-4ec8-8104-b6f9f92e5828}:>2855
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:>2900
+++Estruturas
+i:{070ec943-2d47-45c9-b597-d7291b6a9ef9}:estruturas
+i:{0ef922f0-063e-4bf6-91b2-9f581c11a3a2}:estruturas
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:estruturas
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:estruturas
+i:{a00f1237-419b-4ec8-8104-b6f9f92e5828}:estruturas
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:estruturas
+++Microsoft.NETCore.App
+i:{070ec943-2d47-45c9-b597-d7291b6a9ef9}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.domain\microsoft.netcore.app
+i:{0ef922f0-063e-4bf6-91b2-9f581c11a3a2}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.infra\microsoft.netcore.app
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\microsoft.netcore.app
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\microsoft.netcore.app
+i:{a00f1237-419b-4ec8-8104-b6f9f92e5828}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.infra.data\microsoft.netcore.app
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.crosscutting\microsoft.netcore.app
+++Gerenciador.Transferencia.Infra
+i:{00000000-0000-0000-0000-000000000000}:Gerenciador.Transferencia.Infra
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.infra\gerenciador.transferencia.infra.csproj
+++Gerenciador.Transferencia.Application
+i:{00000000-0000-0000-0000-000000000000}:Gerenciador.Transferencia.Application
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\gerenciador.transferencia.application.csproj
+++Models
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\
+++Request
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\
+++Response
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\
+++_Links.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\_links.cs
+++_Self.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\_self.cs
+++Acquirerdetails.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\acquirerdetails.cs
+++Address.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\address.cs
+++Alert.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\alert.cs
+++Amount.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\amount.cs
+++Bankaccount.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\bankaccount.cs
+++Basicauth.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\basicauth.cs
+++Best_Invoice_Date.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\best_invoice_date.cs
+++Billing_Info.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\billing_info.cs
+++Billingaddress.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\billingaddress.cs
+++Boleto.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\boleto.cs
+++Businesssegment.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\businesssegment.cs
+++Cancellationdetails.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\cancellationdetails.cs
+++Card.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\card.cs
+++Checkout.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\checkout.cs
+++Checkoutpreferences.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\checkoutpreferences.cs
+++Company.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\company.cs
+++Coupon.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\coupon.cs
+++Createdat.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\createdat.cs
+++Creation_Date.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\creation_date.cs
+++Credit_Card.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\credit_card.cs
+++Creditcard.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\creditcard.cs
+++Current.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\current.cs
+++Customer.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\customer.cs
+++Device.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\device.cs
+++Discount.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\discount.cs
+++Duration.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\duration.cs
+++Email.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\email.cs
+++End.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\end.cs
+++Entry.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\entry.cs
+++Escrow.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\escrow.cs
+++Event.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\event.cs
+++Expiration_Date.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\expiration_date.cs
+++Fee.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\fee.cs
+++Fundinginstrument.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\fundinginstrument.cs
+++Future.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\future.cs
+++Geolocation.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\geolocation.cs
+++Headers.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\headers.cs
+++Holder.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\holder.cs
+++Hostedaccount.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\hostedaccount.cs
+++Id.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\id.cs
+++Identitydocument.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\identitydocument.cs
+++Installment.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\installment.cs
+++Instructionlines.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\instructionlines.cs
+++Interval.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\interval.cs
+++Invoice.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\invoice.cs
+++Invoicestatus.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\invoicestatus.cs
+++Item.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\item.cs
+++Keys.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\keys.cs
+++Line.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\line.cs
+++Mainactivity.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\mainactivity.cs
+++Merchant.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\merchant.cs
+++Moipaccount.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\moipaccount.cs
+++Multiorder.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\multiorder.cs
+++Next.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\next.cs
+++Next_Invoice_Date.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\next_invoice_date.cs
+++Notification.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\notification.cs
+++Onlinebankdebit.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\onlinebankdebit.cs
+++Order.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\order.cs
+++Parentsname.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\parentsname.cs
+++Payboleto.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\payboleto.cs
+++Paycheckout.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\paycheckout.cs
+++Paycreditcard.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\paycreditcard.cs
+++Payment.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\payment.cs
+++Payment_Method.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\payment_method.cs
+++PaymentSignature.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\paymentsignature.cs
+++Payonlinebankdebititau.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\payonlinebankdebititau.cs
+++Person.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\person.cs
+++Phone.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\phone.cs
+++Plan.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\plan.cs
+++Previous.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\previous.cs
+++Receiver.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\receiver.cs
+++Receiversdebited.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\receiversdebited.cs
+++Redirecturls.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\redirecturls.cs
+++Reference.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\reference.cs
+++Refund.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\refund.cs
+++Refundinginstrument.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\refundinginstrument.cs
+++Resource.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\resource.cs
+++Response.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response.cs
+++ReturnWebHook.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\returnwebhook.cs
+++Self.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\self.cs
+++Setpassword.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\setpassword.cs
+++Shippingaddress.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\shippingaddress.cs
+++Start.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\start.cs
+++Status.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\status.cs
+++Subscription.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\subscription.cs
+++Subtotals.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\subtotals.cs
+++Summary.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\summary.cs
+++Taxdocument.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\taxdocument.cs
+++TosAcceptance.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\tosacceptance.cs
+++Transfer.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\transfer.cs
+++Transferinstrument.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\transferinstrument.cs
+++Trial.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\trial.cs
+++Unavailable.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\unavailable.cs
+++Updatedat.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\updatedat.cs
+++Webhook.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\webhook.cs
+++Webhooktofire.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\webhooktofire.cs
+++BankAccountRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\bankaccountrequest.cs
+++ClassicAccountRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\classicaccountrequest.cs
+++CouponRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\couponrequest.cs
+++CustomerRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\customerrequest.cs
+++MultiOrderRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\multiorderrequest.cs
+++MultiPaymentRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\multipaymentrequest.cs
+++NotificationRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\notificationrequest.cs
+++OrderRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\orderrequest.cs
+++PaymentRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\paymentrequest.cs
+++PlanRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\planrequest.cs
+++RefundRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\refundrequest.cs
+++RetentativeRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\retentativerequest.cs
+++SignatureRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\signaturerequest.cs
+++SubscriberRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\subscriberrequest.cs
+++SubscriptionRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\subscriptionrequest.cs
+++TransferRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\transferrequest.cs
+++TransparentAccountRequest.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\request\transparentaccountrequest.cs
+++AccessTokenResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\accesstokenresponse.cs
+++BalanceResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\balanceresponse.cs
+++BankAccountResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\bankaccountresponse.cs
+++ClassAccountResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\classaccountresponse.cs
+++CouponResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\couponresponse.cs
+++CouponsResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\couponsresponse.cs
+++CustomerResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\customerresponse.cs
+++ExtractResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\extractresponse.cs
+++InvoiceResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\invoiceresponse.cs
+++InvoicesResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\invoicesresponse.cs
+++LaunchesResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\launchesresponse.cs
+++LaunchResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\launchresponse.cs
+++MultiOrderResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\multiorderresponse.cs
+++MultiPaymentResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\multipaymentresponse.cs
+++NotificationResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\notificationresponse.cs
+++OrderResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\orderresponse.cs
+++OrdersResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\ordersresponse.cs
+++PaymentResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\paymentresponse.cs
+++PaymentsResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\paymentsresponse.cs
+++PaymentsSignatureResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\paymentssignatureresponse.cs
+++PlanResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\planresponse.cs
+++PlansResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\plansresponse.cs
+++PublicKeyAccountWirecardResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\publickeyaccountwirecardresponse.cs
+++RefundResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\refundresponse.cs
+++RetentativeResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\retentativeresponse.cs
+++SalesFileResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\salesfileresponse.cs
+++SubscriberResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\subscriberresponse.cs
+++SubscribersResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\subscribersresponse.cs
+++SubscriptionResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\subscriptionresponse.cs
+++SubscriptionsResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\subscriptionsresponse.cs
+++TransferResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\transferresponse.cs
+++TransfersResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\transfersresponse.cs
+++TransparentAccountResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\transparentaccountresponse.cs
+++WebhooksResponse.cs
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.application\models\response\webhooksresponse.cs
+++Gerenciador.Transferencia.WebAPI
+i:{00000000-0000-0000-0000-000000000000}:Gerenciador.Transferencia.WebAPI
+++Connected Services 
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>1415
+++Properties
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\properties\
+++Controllers
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\
+++BalancesController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\balancescontroller.cs
+++BankAccountsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\bankaccountscontroller.cs
+++ClassicAccountsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\classicaccountscontroller.cs
+++ConciliationsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\conciliationscontroller.cs
+++CustomersController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\customerscontroller.cs
+++ExtractsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\extractscontroller.cs
+++LaunchesController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\launchescontroller.cs
+++MultiOrdersController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\multiorderscontroller.cs
+++MultiPaymentsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\multipaymentscontroller.cs
+++NotificationsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\notificationscontroller.cs
+++OrdersController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\orderscontroller.cs
+++PaymentsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\paymentscontroller.cs
+++RefundsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\refundscontroller.cs
+++SignaturesController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\signaturescontroller.cs
+++TransfersController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\transferscontroller.cs
+++TransparentAccountsController.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\transparentaccountscontroller.cs
+++Exception
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\exception\
+++WirecardException.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\exception\wirecardexception.cs
+++appsettings.json
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\appsettings.json
+++Program.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\program.cs
+++Startup.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\startup.cs
+++WeatherForecast.cs
+++Nenhuma dependência de serviço descoberta
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>1417
+++Analisadores
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:analisadores
+++Pacotes
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:pacotes
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:pacotes
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:pacotes
+++Projetos
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:projetos
+++launchSettings.json
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\properties\launchsettings.json
+++appsettings.Development.json
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\program files\dotnet\sdk\6.0.203\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\microsoft.aspnetcore.app
+++Newtonsoft.Json (12.0.3)
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>1598
+i:{620050dc-56a0-4a28-a900-b64530e9baca}:>1962
+++NovaPasta
+++Configuration
+i:{0ef922f0-063e-4bf6-91b2-9f581c11a3a2}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.infra\configuration\
+++ConfigurationHttp.cs
+i:{0ef922f0-063e-4bf6-91b2-9f581c11a3a2}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.infra\configuration\configurationhttp.cs
+++Utilities
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\utilities\
+++Utilities.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\utilities\utilities.cs
+++ControlWirecardException.cs
+++zlgaqedt.oaw~
+++Swashbuckle.AspNetCore (6.3.1)
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>1984
+++Swashbuckle.Core (5.6.0)
+++Swashbuckle.AspNetCore.Swagger (6.3.1)
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>1986
+++Modules
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\
+++Common
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\common\
+++Swagger
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\common\swagger\
+++ConfigureSwaggerOptions.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\common\swagger\configureswaggeroptions.cs
+++Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer (5.0.0)
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>2370
+++SwaggerExtensions.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\common\swagger\swaggerextensions.cs
+++Microsoft.Extensions.PlatformAbstractions (1.1.0)
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>2375
+++Microsoft.FeatureManagement (2.5.1)
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:>2378
+++FeatureFlags
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\common\featureflags\
+++CustomFeature.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\common\featureflags\customfeature.cs
+++ExchangeExtensions
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\common\exchangeextensions\
+++CurrencyExchangeExtensions.cs
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\modules\common\exchangeextensions\currencyexchangeextensions.cs
+++Base
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\base\
+++v1
+i:{d6e8c9cd-376b-4085-ac41-060b60d21f38}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.webapi\controllers\v1\
+++Solução 'Gerenciador.Transferencia' ‎(5 de 5 projetos)
+++Gerenciador.Transferencia.Infra.Data
+i:{00000000-0000-0000-0000-000000000000}:Gerenciador.Transferencia.Infra.Data
+++Class1.cs
+++Solução 'Gerenciador.Transferencia' ‎(6 de 6 projetos)
+i:{00000000-0000-0000-0000-000000000000}:Gerenciador.Transferencia.sln
+++Gerenciador.Transferencia.CrossCutting
+i:{00000000-0000-0000-0000-000000000000}:Gerenciador.Transferencia.CrossCutting
+++IoC
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.crosscutting\ioc\
+++Injections.cs
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:c:\users\mateu\onedrive\área de trabalho\impulsiona\impulsionatech-gerenciador-contas\gerenciador.transferencia\gerenciador.transferencia.crosscutting\ioc\injections.cs
+++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:>2943
+++Microsoft.Extensions.Configuration.Abstractions (6.0.0)
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:>2944
+++Microsoft.Extensions.Options.ConfigurationExtensions (6.0.0)
+i:{cee0d66b-6581-4f46-8c77-4ba0839999c1}:>2947

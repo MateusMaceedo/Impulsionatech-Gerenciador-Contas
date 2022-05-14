@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="ConfigurationExtensions\" />
+    <Folder Include="Connectors\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="IoC\" />
+    <Folder Include="Middleware\" />
+  </ItemGroup>
+
 </Project>
