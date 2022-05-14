@@ -1,6 +1,15 @@
----
 version: '2'
 services:
+# redis:
+  #   build:
+  #     dockerfile: Aplicacao.API/Dockerfile
+  #     context: .
+  #   image: gerenciador-transferencia-redis
+  #   container_name: gerenciador-transferencia-redis
+  #   ports:
+  #     - 5001:5001
+  #   networks:
+  #     - redis-network
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
     networks:
@@ -8,6 +17,21 @@ services:
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
+
+  redis:
+    image: redis:6.0.10-alpine
+    restart: always
+    container_name: redis-exemplo
+    command: redis-server --requirepass Psw5971!
+    ports:
+      - "6379:6379"
+    volumes:
+      - /mnt/c/temp/redis-data:/var/lib/redis
+      - /mnt/c/temp/redis.conf:/usr/local/etc/redis/redis.conf
+    environment:
+     - REDIS_REPLICATION_MODE=master
+    networks:
+      - gerenciador-transferencia-redis-network
 
   kafka:
     # "`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-'"`-._,-
@@ -44,4 +68,5 @@ services:
 
 networks:
   net:
+  gerenciador-transferencia-redis-network:
     driver: bridge
