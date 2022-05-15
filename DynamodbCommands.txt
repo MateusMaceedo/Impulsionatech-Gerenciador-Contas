@@ -1,11 +1,13 @@
 export SERVICES=dynamodb
 localstack start
 
-aws --endpoint-url=http://localhost:4569 dynamodb create-table --table-name People  --attribute-definitions AttributeName=PersonId,AttributeType=N --key-schema AttributeName=PersonId,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
+aws --endpoint-url=http://localhost:4569 dynamodb create-table --table-name Transferencia  --attribute-definitions AttributeName=PersonId,AttributeType=N --key-schema AttributeName=PersonId,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
 
-aws --endpoint-url=http://localhost:4569 dynamodb put-item --table-name People  --item '{"PersonId":{"N":"1"},"State":{"S":"MA"}, "FirstName": {"S":"Alice"}, "LastName": {"S":"Andrews"}}'
-aws --endpoint-url=http://localhost:4569 dynamodb put-item --table-name People  --item '{"PersonId":{"N":"2"},"State":{"S":"MA"}, "FirstName": {"S":"Ben"}, "LastName": {"S":"Bradley"}}'
-aws --endpoint-url=http://localhost:4569 dynamodb put-item --table-name People  --item '{"PersonId":{"N":"3"},"State":{"S":"MA"}, "FirstName": {"S":"Colin"}, "LastName": {"S":"Connor"}}'
+aws --endpoint-url=http://localhost:4569 dynamodb put-item --table-name Transferencia  --item '{"IdTransferencia":{"N":"1"},"State":{"S":"MA"}, "conta_origem": {"S":"Alice"}, "LastName": {"S":"Andrews"}}'
+aws --endpoint-url=http://localhost:4569 dynamodb put-item --table-name Transferencia  --item '{"IdTransferencia":{"N":"2"},"State":{"S":"MA"}, "conta_destino": {"S":"Ben"}, "LastName": {"S":"Bradley"}}'
+aws --endpoint-url=http://localhost:4569 dynamodb put-item --table-name Transferencia  --item '{"IdTransferencia":{"N":"3"},"State":{"S":"MA"}, "nome_origem": {"S":"Colin"}, "LastName": {"S":"Connor"}}'
+aws --endpoint-url=http://localhost:4569 dynamodb put-item --table-name Transferencia  --item '{"IdTransferencia":{"N":"3"},"State":{"S":"MA"}, "nome_destino": {"S":"Colin"}, "LastName": {"S":"Connor"}}'
+aws --endpoint-url=http://localhost:4569 dynamodb put-item --table-name Transferencia  --item '{"IdTransferencia":{"N":"3"},"State":{"S":"MA"}, "data_hora_transferencia": {"S":"Colin"}, "LastName": {"S":"Connor"}}'
 
-aws --endpoint-url=http://localhost:4569 dynamodb scan --table-name People
-aws --endpoint-url=http://localhost:4569 dynamodb delete-table --table-name People
+aws --endpoint-url=http://localhost:4569 dynamodb scan --table-name Transferencia
+aws --endpoint-url=http://localhost:4569 dynamodb delete-table --table-name Transferencia
