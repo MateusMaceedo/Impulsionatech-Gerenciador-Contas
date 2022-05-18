@@ -23,7 +23,7 @@ namespace Gerenciador.Transferencia.Repository.Repository
 
         public async Task Add(TransferenciaInputModel entity)
         {
-            var reader = new TransferenciaRequest
+            var transferencia = new TransferenciaRequest
             {
                 IdTransferencia = Guid.NewGuid(),
                 NomeClienteOrigem = entity.NomeClienteOrigem,
@@ -33,7 +33,7 @@ namespace Gerenciador.Transferencia.Repository.Repository
                 DataHoraTransferencia = DateTime.Now,
             };
 
-            await _context.SaveAsync<TransferenciaRequest>(reader);
+            await _context.SaveAsync<TransferenciaRequest>(transferencia);
         }
 
         public Task<TransferenciaViewModel> All(string paginationToken = "")
