@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dqvR2VRAwJEVWsvwqgRKzAE8XuDqwNuOwf/7sRxGfVkHrg3SL1idQaEXlC94YWaw6imRhrvybe38ubhlY1753w==",
+  "dgSpecHash": "ZPyMfkyaRtBku4bU6VcQmHaHbHnjea9rdRzgRHeRmOkWYMmfLbsaCstk3q9ZwtIdmNZJs/Pso8YugJKZFHeNvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mateu\\.nuget\\packages\\awssdk.core\\3.7.11.2\\awssdk.core.3.7.11.2.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.34\\awssdk.dynamodbv2.3.7.3.34.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

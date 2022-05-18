@@ -1,10 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 
 namespace Gerenciador.Transferencia.CrossCutting.IoC
 {
-    public static class Injections
+    public static class DependencyInjections
     {
         public static void AddRegisterServicesAplication(this IServiceCollection services)
         {

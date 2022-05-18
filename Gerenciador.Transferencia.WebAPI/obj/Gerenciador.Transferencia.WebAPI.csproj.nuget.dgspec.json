@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj": {}
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj": {
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj",
         "projectName": "Gerenciador.Transferencia.Application",
-        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Application\\obj\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.3.34, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -68,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj": {
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj",
         "projectName": "Gerenciador.Transferencia.Domain",
-        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Domain\\obj\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -126,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj": {
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj",
         "projectName": "Gerenciador.Transferencia.Infra",
-        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Infra\\obj\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -184,14 +188,14 @@
         }
       }
     },
-    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj": {
+    "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj",
         "projectName": "Gerenciador.Transferencia.WebAPI",
-        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj",
+        "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -212,14 +216,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj": {
-                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj"
+              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj": {
+                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj"
               },
-              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj": {
-                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj"
+              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj": {
+                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Domain\\Gerenciador.Transferencia.Domain.csproj"
               },
-              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj": {
-                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj"
+              "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj": {
+                "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Infra\\Gerenciador.Transferencia.Infra.csproj"
               }
             }
           }

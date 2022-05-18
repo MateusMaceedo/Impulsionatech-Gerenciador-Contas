@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oC6xehfV7JwaI2VCO7T+SjhpTidnJYd8vv3gWUSl/7iqE8EkR92aSkw7eS4VejjCgnVQV/g6fO2Jhhz5GXR1Ww==",
+  "dgSpecHash": "dKVk6SuaaPYTtRjSgdxzZc4UKx8OQOSArIpnZBbbz5neBBRszRrygB7dds83Nt7/WfJRlYLR2/YysMzWtN+mSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.CrossCutting\\Gerenciador.Transferencia.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.CrossCutting\\Gerenciador.Transferencia.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",

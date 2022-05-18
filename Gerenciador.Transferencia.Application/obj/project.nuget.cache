@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "s5GLAJIegEk+faPlixgR5LcAdgapDuOenJqjDgvFleYavuru2fKOI1fKpxpHKf2jwPGL9CwJWOD2/+UnMWi2lg==",
+  "dgSpecHash": "OHbVziCAK+60NByLGxzwIiprPjkEpSa28PTYraHSB/ps9UUh2pJKSUHDs1ZbCq8owY3cETShGBD+qXO5azkpZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj",
+  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.Application\\Gerenciador.Transferencia.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mateu\\.nuget\\packages\\awssdk.core\\3.7.11.2\\awssdk.core.3.7.11.2.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.34\\awssdk.dynamodbv2.3.7.3.34.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []

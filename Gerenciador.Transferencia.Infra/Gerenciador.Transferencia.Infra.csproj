@@ -9,7 +9,6 @@
     <Folder Include="ConfigurationExtensions\" />
     <Folder Include="Connectors\" />
     <Folder Include="Extensions\" />
-    <Folder Include="IoC\" />
     <Folder Include="Middleware\" />
   </ItemGroup>
 

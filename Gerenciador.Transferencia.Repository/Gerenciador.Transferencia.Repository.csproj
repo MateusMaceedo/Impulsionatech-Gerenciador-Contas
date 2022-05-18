@@ -6,8 +6,14 @@
 
   <ItemGroup>
     <Folder Include="Cache\" />
-    <Folder Include="Data\" />
-    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.3.34" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gerenciador.Transferencia.Application\Gerenciador.Transferencia.Application.csproj" />
   </ItemGroup>
 
 </Project>
