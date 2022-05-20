@@ -9,7 +9,7 @@ namespace Gerenciador.Transferencia.Repository.Repository.Interfaces
 {
     public interface ITransferenciaRepository
     {
-        Task<TransferenciaUseCase> Single(Guid readerId);
+        Task<TransferenciaUseCaseAsync> Single(Guid readerId);
         Task<TransferenciaViewModel> All(string paginationToken = "");
         Task<IEnumerable<TransferenciaRequest>> Find(BuscaTransferenciaRequest buscaReq);
         Task Add(TransferenciaInputModel entity);

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ZPyMfkyaRtBku4bU6VcQmHaHbHnjea9rdRzgRHeRmOkWYMmfLbsaCstk3q9ZwtIdmNZJs/Pso8YugJKZFHeNvw==",
+  "dgSpecHash": "1iUdfD08WgpRyYct6JpZvXCELmAZidvxgqpGZEhGLjwpv7iM3cwUOxN9/49voqGUUrBktKlrt2ltSNa7mHGIHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Impulsionatech-Gerenciador-Contas\\Gerenciador.Transferencia.WebAPI\\Gerenciador.Transferencia.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateu\\.nuget\\packages\\awssdk.core\\3.7.11.2\\awssdk.core.3.7.11.2.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.3.34\\awssdk.dynamodbv2.3.7.3.34.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\fluentvalidation\\9.1.3\\fluentvalidation.9.1.3.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.1.3\\fluentvalidation.aspnetcore.9.1.3.nupkg.sha512",
+    "C:\\Users\\mateu\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.3\\fluentvalidation.dependencyinjectionextensions.9.1.3.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

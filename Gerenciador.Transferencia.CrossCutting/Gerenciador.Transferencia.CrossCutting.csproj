@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Gerenciador.Transferencia.Domain\Gerenciador.Transferencia.Domain.csproj" />
+    <ProjectReference Include="..\Gerenciador.Transferencia.Repository\Gerenciador.Transferencia.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

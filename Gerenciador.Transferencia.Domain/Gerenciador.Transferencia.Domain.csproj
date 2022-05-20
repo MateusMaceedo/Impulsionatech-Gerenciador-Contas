@@ -5,11 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Aggregate\Customer\Interfaces\Repositories\" />
     <Folder Include="Annotation\" />
     <Folder Include="Entidades\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Utils\" />
   </ItemGroup>
 

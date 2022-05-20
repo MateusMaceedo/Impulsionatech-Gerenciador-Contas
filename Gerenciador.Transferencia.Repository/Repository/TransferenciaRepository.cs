@@ -25,12 +25,9 @@ namespace Gerenciador.Transferencia.Repository.Repository
         {
             var transferencia = new TransferenciaRequest
             {
-                IdTransferencia = Guid.NewGuid(),
-                NomeClienteOrigem = entity.NomeClienteOrigem,
-                NomeClienteDestino = entity.NomeClienteDestino,
-                ContaClienteOrigem = entity.ContaClienteOrigem,
-                ContaClienteDestino = entity.ContaClienteDestino,
-                DataHoraTransferencia = DateTime.Now,
+                IdContaDestino = entity.IdContaClienteDestino,
+                IdContaOrigem = entity.IdContaClienteOrigem,
+                Valor = entity.Valor
             };
 
             await _context.SaveAsync<TransferenciaRequest>(transferencia);
@@ -51,7 +48,7 @@ namespace Gerenciador.Transferencia.Repository.Repository
             throw new NotImplementedException();
         }
 
-        public Task<TransferenciaUseCase> Single(Guid readerId)
+        public Task<TransferenciaUseCaseAsync> Single(Guid readerId)
         {
             throw new NotImplementedException();
         }

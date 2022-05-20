@@ -1,29 +1,16 @@
-﻿using Amazon.DynamoDBv2.DataModel;
-using System;
+﻿using Newtonsoft.Json;
 
 namespace Gerenciador.Transferencia.Application.Models.Request
 {
-    [DynamoDBTable("conta_transferencia")]
-
     public class TransferenciaRequest
     {
-        [DynamoDBProperty("id_transferencia")]
-        [DynamoDBHashKey]
-        public Guid IdTransferencia { get; set; }
+        [JsonProperty("id_conta_origem", DefaultValueHandling = DefaultValueHandling.Ignore)]
+        public int IdContaOrigem { get; set; }
 
-        [DynamoDBProperty("nome_cliente_origem")]
-        public string NomeClienteOrigem { get; set; }
+        [JsonProperty("id_conta_destino", DefaultValueHandling = DefaultValueHandling.Ignore)]
+        public int IdContaDestino { get; set; }
 
-        [DynamoDBProperty("conta_cliente_origem")]
-        public string ContaClienteOrigem { get; set; }
-
-        [DynamoDBProperty("nome_cliente_destino")]
-        public string NomeClienteDestino { get; set; }
-
-        [DynamoDBProperty("conta_cliente_origem")]
-        public string ContaClienteDestino { get; set; }
-
-        [DynamoDBProperty("data_hora_transferencia")]
-        public DateTime DataHoraTransferencia { get; set; }
+        [JsonProperty("valor", DefaultValueHandling = DefaultValueHandling.Ignore)]
+        public decimal Valor { get; set; }
     }
 }

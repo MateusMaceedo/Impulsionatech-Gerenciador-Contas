@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Gerenciador.Transferencia.Repository.Repository;
+using Gerenciador.Transferencia.Repository.Repository.Interfaces;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Gerenciador.Transferencia.CrossCutting.IoC
@@ -9,15 +11,23 @@ namespace Gerenciador.Transferencia.CrossCutting.IoC
         {
             // AutoMapper
 
-            //Applications
+            // Applications
+            services.AddScoped<ITransferenciaRepository, TransferenciaRepository>();
+            // Domain Validations
 
-            //Domain Validations
+            // Services
 
-            //Services
+            // UoW
 
-            //UoW
+            // Repositories DynamoDB
 
-            //MessageBroker
+            // Repositories Redis
+            //services.AddScoped<ICustomerRedisRepository, CustomerRedisRepository>();
+            //services.AddScoped<IProductRedisRepository, ProductRedisRepository>();
+            //services.AddScoped<IOrderRedisRepository, OrderRedisRepository>();
+
+            // MessageBroker
+            //services.AddScoped<IMediatorHandler, KafkaServiceBusQueue>();
         }
 
         public static void SetSecurity(this IServiceCollection services, IConfiguration configuration)
