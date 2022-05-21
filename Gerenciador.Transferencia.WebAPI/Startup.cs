@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Gerenciador.Transferencia.WebAPI.Modules.Common.Swagger;
 using Gerenciador.Transferencia.Infra.Middleware;
+using Microsoft.OpenApi.Models;
 
 namespace Gerenciador.Transferencia.WebAPI
 {
@@ -13,17 +13,25 @@ namespace Gerenciador.Transferencia.WebAPI
     /// </summary>
     public class Startup
     {
-        public Startup(IConfiguration configuration) => this.Configuration = configuration;
-
-        private IConfiguration Configuration { get; }
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+        public IConfiguration Configuration { get; }
 
         /// <summary>
         ///     Configure dependencies from application.
         /// </summary>
-        public void ConfigureServices(IServiceCollection services) =>
-            services
-                .AddSwagger();
-                
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllers();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Gerenciador de Transferencia", Version = "v1", });
+            });
+        }
+
         /// <summary>
         ///     Configure http request pipeline.
         /// </summary>
