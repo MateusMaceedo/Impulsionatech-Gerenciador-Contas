@@ -27,6 +27,8 @@ namespace Gerenciador.Transferencia.CrossCutting.IoC
 
             // Applications
             services.AddScoped<ITransferenciaRepository, TransferenciaRepository>();
+            services.AddScoped<IObterHistoricoRepository, ObterHistoricoRepository>();
+
             // Domain Validations
 
             // Services
@@ -42,9 +44,9 @@ namespace Gerenciador.Transferencia.CrossCutting.IoC
                 options.InstanceName = "MITArq-";
             });
 
-            //services.AddScoped<ICustomerRedisRepository, CustomerRedisRepository>();
-            //services.AddScoped<IProductRedisRepository, ProductRedisRepository>();
-            //services.AddScoped<IOrderRedisRepository, OrderRedisRepository>();
+            services.AddScoped<ICustomerRedisRepository, CustomerRedisRepository>();
+            services.AddScoped<IProductRedisRepository, ProductRedisRepository>();
+            services.AddScoped<IOrderRedisRepository, OrderRedisRepository>();
 
             // MessageBroker
             //services.AddScoped<IMediatorHandler, KafkaServiceBusQueue>();
