@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Gerenciador.Transferencia.WebAPI.Modules.Common.Swagger;
+using Gerenciador.Transferencia.Infra.Middleware;
 
 namespace Gerenciador.Transferencia.WebAPI
 {
@@ -40,6 +41,8 @@ namespace Gerenciador.Transferencia.WebAPI
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseMiddleware(typeof(ErrorMiddleware));
 
             app.UseEndpoints(endpoints =>
             {
