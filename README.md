@@ -47,6 +47,11 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - Unit of Work
 - Repository
 
+## Fluxo
+<h1 align="center">
+  <img src="https://github.com/MateusMaceedo/Payroll_Loan/blob/main/img/CaseITUBE.drawio.png?raw=true" alt="CaseITUBE.drawio.png">
+</h1>
+
 ## News
 
 **v1.0 - 30/12/2022**
