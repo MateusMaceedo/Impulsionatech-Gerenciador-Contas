@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "59Ka/BepMhSsw/F5+kbbxQ1P5rnY+KaQbG3FqaLTzD3R3WIMbMrFbbYvdJjUVR0Fir+xu6+0TJulqatY+G07ig==",
+  "dgSpecHash": "Z6r+UpR+EukSUawKeuYjYwU9Aas2nV32Ud6YchiZC1xAkrtXh3iTYzsUVSklCtLpeuqH3q0x+D2+3eRrg/J9tA==",
   "success": true,
-  "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/ImpulsionaTech.Contas.Domain.Core/ImpulsionaTech.Contas.Domain.Core.csproj",
+  "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain.Core/ImpulsionaTech.Contas.Domain.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj": {}
+    "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj": {}
   },
   "projects": {
-    "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj": {
+    "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj",
+        "projectUniqueName": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj",
         "projectName": "ImpulsionaTech.Contas.Infra.Data",
-        "projectPath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj",
+        "projectPath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj",
         "packagesPath": "/home/mateus/.nuget/packages/",
-        "outputPath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/ImpulsionaTech.Contas.Infra.Data/obj/",
+        "outputPath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mateus/.nuget/NuGet/NuGet.Config"
