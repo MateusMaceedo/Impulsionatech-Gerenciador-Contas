@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HZL6bmA6b4jESsr28XvMdDmNoaes7gpzJcM5EFjJQ1PFmK64lpDDcRWwz0woS1NjIHw3haYr92CxI6JFKFt8Aw==",
+  "dgSpecHash": "mS0p4wvZU5lsND0PDVsgru0HdfAxmjIZb6V3XDK+n1QXSHSr2x13/lbRsZg1ICl5F9YdyKnOK5zaJHdFfE17Jw==",
   "success": true,
-  "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/ImpulsionaTech.Contas.Domain/ImpulsionaTech.Contas.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain/ImpulsionaTech.Contas.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/mateus/.nuget/packages/microsoft.netcore.platforms/1.1.1/microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "/home/mateus/.nuget/packages/microsoft.netcore.targets/1.1.3/microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "/home/mateus/.nuget/packages/system.runtime/4.3.1/system.runtime.4.3.1.nupkg.sha512",
+    "/home/mateus/.nuget/packages/system.text.regularexpressions/4.3.1/system.text.regularexpressions.4.3.1.nupkg.sha512"
+  ],
   "logs": []
 }
