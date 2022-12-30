@@ -1,0 +1,767 @@
+[2021-01-11 05:28:49,081 INFO root] Taurus CLI Tool v1.15.1
+[2021-01-11 05:28:49,082 DEBUG root] Build: 14017 Mon Dec 21 10:37:08 UTC 2020
+[2021-01-11 05:28:49,082 DEBUG root] Extended git info:  01c18cc3 Add waiter for page load after selected Taurus actions (#1443)
+[2021-01-11 05:28:49,082 DEBUG root] Command-line options: {'log': '/tmp/bzt_lw28z1rb.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2021-01-11 05:28:49,083 DEBUG root] Python: CPython 3.6.9
+[2021-01-11 05:28:49,083 DEBUG root] OS: uname_result(system='Linux', node='540c7957bf0b', release='4.15.0-128-generic', version='#131~16.04.1-Ubuntu SMP Wed Dec 9 17:33:47 UTC 2020', machine='x86_64', processor='x86_64')
+[2021-01-11 05:28:49,083 DEBUG root] Path to interpreter: /usr/bin/python3
+[2021-01-11 05:28:49,083 DEBUG root] Path to packages: ['', '/usr/local/taurus-cloud/python', '/tmp/artifacts', '/usr/lib/python36.zip', '/usr/lib/python3.6', '/usr/lib/python3.6/lib-dynload', '/usr/local/taurus-cloud/python/lib/python3.6/site-packages', '/usr/local/lib/python3.6/dist-packages', '/usr/lib/python3/dist-packages']
+[2021-01-11 05:28:49,088 DEBUG root] Default python: /usr/local/bin/python
+[2021-01-11 05:28:49,089 DEBUG root] Default python3: /usr/bin/python3
+[2021-01-11 05:28:49,089 INFO root] Starting with configs: ['/tmp/artifacts/taurus-custom-config.yml', '/tmp/artifacts/taurus-original-config.yml', '/usr/local/bztcloud/final-overrides.yml']
+[2021-01-11 05:28:49,092 DEBUG root] Using personal config: /shared/.bzt-rc
+[2021-01-11 05:28:49,093 INFO Engine] Configuring...
+[2021-01-11 05:28:49,093 DEBUG Engine] Reading system configs from: /etc/bzt.d
+[2021-01-11 05:28:49,201 DEBUG Engine] Base configs list: ['/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/resources/10-base-config.yml', '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcustom/30-custom.yml', '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/50-bztcloud.yml', '/etc/bzt.d/50-jmeter-plugins-all.yml', '/etc/bzt.d/50-pbench-enhanced.json', '/etc/bzt.d/90-artifacts-dir.json', '/etc/bzt.d/99-zinstallID.json']
+[2021-01-11 05:28:49,202 DEBUG Engine.Configuration] Configs: ['/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/resources/10-base-config.yml', '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcustom/30-custom.yml', '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/50-bztcloud.yml', '/etc/bzt.d/50-jmeter-plugins-all.yml', '/etc/bzt.d/50-pbench-enhanced.json', '/etc/bzt.d/90-artifacts-dir.json', '/etc/bzt.d/99-zinstallID.json']
+[2021-01-11 05:28:49,213 DEBUG Engine.Configuration] Reading /usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/resources/10-base-config.yml as YAML
+[2021-01-11 05:28:49,249 DEBUG Engine.Configuration] Reading /usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcustom/30-custom.yml as YAML
+[2021-01-11 05:28:49,251 DEBUG Engine.Configuration] Reading /usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/50-bztcloud.yml as YAML
+[2021-01-11 05:28:49,278 DEBUG Engine.Configuration] Reading /etc/bzt.d/50-jmeter-plugins-all.yml as YAML
+[2021-01-11 05:28:49,282 DEBUG Engine.Configuration] Reading /etc/bzt.d/50-pbench-enhanced.json as YAML
+[2021-01-11 05:28:49,284 DEBUG Engine.Configuration] Reading /etc/bzt.d/90-artifacts-dir.json as YAML
+[2021-01-11 05:28:49,286 DEBUG Engine.Configuration] Reading /etc/bzt.d/99-zinstallID.json as YAML
+[2021-01-11 05:28:49,286 DEBUG Engine] User configs list: ['/shared/.bzt-rc', '/tmp/artifacts/taurus-custom-config.yml', '/tmp/artifacts/taurus-original-config.yml', '/usr/local/bztcloud/final-overrides.yml']
+[2021-01-11 05:28:49,286 DEBUG Engine.Configuration] Configs: ['/shared/.bzt-rc', '/tmp/artifacts/taurus-custom-config.yml', '/tmp/artifacts/taurus-original-config.yml', '/usr/local/bztcloud/final-overrides.yml']
+[2021-01-11 05:28:49,316 DEBUG Engine.Configuration] Reading /shared/.bzt-rc as YAML
+[2021-01-11 05:28:49,322 DEBUG Engine.Configuration] Reading /tmp/artifacts/taurus-custom-config.yml as YAML
+[2021-01-11 05:28:49,348 DEBUG Engine.Configuration] Reading /tmp/artifacts/taurus-original-config.yml as YAML
+[2021-01-11 05:28:49,349 DEBUG Engine.Configuration] Reading /usr/local/bztcloud/final-overrides.yml as YAML
+[2021-01-11 05:28:49,352 DEBUG Engine.Configuration] Configs: ['/shared/.bzt-rc', '/tmp/artifacts/taurus-custom-config.yml', '/tmp/artifacts/taurus-original-config.yml', '/usr/local/bztcloud/final-overrides.yml']
+[2021-01-11 05:28:49,352 DEBUG Engine.Configuration] Reading /shared/.bzt-rc as YAML
+[2021-01-11 05:28:49,357 DEBUG Engine.Configuration] Reading /tmp/artifacts/taurus-custom-config.yml as YAML
+[2021-01-11 05:28:49,385 DEBUG Engine.Configuration] Reading /tmp/artifacts/taurus-original-config.yml as YAML
+[2021-01-11 05:28:49,385 DEBUG Engine.Configuration] Reading /usr/local/bztcloud/final-overrides.yml as YAML
+[2021-01-11 05:28:49,388 INFO Engine] Artifacts dir: /tmp/artifacts
+[2021-01-11 05:28:49,389 DEBUG Engine] New artifact filename: /tmp/artifacts/effective
+[2021-01-11 05:28:49,393 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/effective.yml
+[2021-01-11 05:28:49,451 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/effective.json
+[2021-01-11 05:28:49,456 DEBUG Engine] New artifact filename: /tmp/artifacts/merged.yml
+[2021-01-11 05:28:49,458 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/merged.yml
+[2021-01-11 05:28:49,476 DEBUG Engine] New artifact filename: /tmp/artifacts/merged.json
+[2021-01-11 05:28:49,477 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/merged.json
+[2021-01-11 05:28:49,478 DEBUG Engine] Add existing artifact (move=False): /tmp/artifacts/taurus-custom-config.yml
+[2021-01-11 05:28:49,478 DEBUG Engine] No need to copy /tmp/artifacts/taurus-custom-config.yml
+[2021-01-11 05:28:49,478 DEBUG Engine] Add existing artifact (move=False): /tmp/artifacts/taurus-original-config.yml
+[2021-01-11 05:28:49,478 DEBUG Engine] No need to copy /tmp/artifacts/taurus-original-config.yml
+[2021-01-11 05:28:49,479 DEBUG Engine] Add existing artifact (move=False): /usr/local/bztcloud/final-overrides.yml
+[2021-01-11 05:28:49,479 DEBUG Engine] Copying /usr/local/bztcloud/final-overrides.yml to /tmp/artifacts/final-overrides.yml
+[2021-01-11 05:28:49,479 DEBUG Engine] Set PYTHONPATH to :
+	USER: '/shared/.bzt/python-packages/3.6.9' +
+	TEMP: '/tmp/artifacts/python-packages/3.6.9' +
+	CURRENT: '/usr/local/taurus-cloud/python::/usr/local/taurus-cloud/python:'
+[2021-01-11 05:28:49,480 DEBUG Engine] Content of user packages dir: []
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: JVM_ARGS=-Xms3328m -Xmx6656m -XX:NewSize=64m -XX:MaxNewSize=128m -XX:PermSize=64m -XX:MaxPermSize=64m -XX:MaxTenuringThreshold=2 -Dsun.rmi.dgc.client.gcInterval=600000 -Dsun.rmi.dgc.server.gcInterval=600000 -Dsun.net.inetaddr.ttl=20 -Dnetworkaddress.cache.ttl=20
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: TAURUS_EXECUTIONS_INDEX=1
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: TAURUS_EXECUTIONS_TOTAL=1
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: TAURUS_LOCATIONS_INDEX=1
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: TAURUS_LOCATIONS_TOTAL=1
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: TAURUS_SESSIONS_INDEX=1
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: TAURUS_SESSIONS_TOTAL=1
+[2021-01-11 05:28:49,483 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=/tmp/artifacts
+[2021-01-11 05:28:49,483 DEBUG root] Closing log handler: /tmp/bzt_lw28z1rb.log
+[2021-01-11 05:28:49,484 DEBUG root] Switched writing logs to /tmp/artifacts/bzt.log
+[2021-01-11 05:28:49,484 DEBUG root] Linting config
+[2021-01-11 05:28:49,501 INFO Engine] Preparing...
+[2021-01-11 05:28:49,502 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator', 'generalize-labels': 500, 'ignore-labels': ['_#ignore*', '_#ignore'], 'max-error-variety': 100}
+[2021-01-11 05:28:49,502 DEBUG root] Importing module: bzt.modules.aggregator
+[2021-01-11 05:28:49,763 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/aggregator.py'>
+[2021-01-11 05:28:49,764 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2021-01-11 05:28:49,764 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2021-01-11 05:28:49,764 DEBUG root] Importing module: bzt.modules.monitoring
+[2021-01-11 05:28:49,770 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/monitoring.py'>
+[2021-01-11 05:28:49,770 DEBUG Engine] Module config: forced-headers {'class': 'bztcloud.helpers.forcedheaders.ForcedHeaders'}
+[2021-01-11 05:28:49,770 DEBUG root] Importing module: bztcloud.helpers.forcedheaders
+[2021-01-11 05:28:49,906 DEBUG root] Loading class: 'ForcedHeaders' from <module 'bztcloud.helpers.forcedheaders' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/helpers/forcedheaders.py'>
+[2021-01-11 05:28:49,907 DEBUG Engine] Module config: virtual-display {'class': 'bzt.modules.services.VirtualDisplay'}
+[2021-01-11 05:28:49,907 DEBUG root] Importing module: bzt.modules.services
+[2021-01-11 05:28:49,929 DEBUG easyprocess] version=0.2.10
+[2021-01-11 05:28:49,934 DEBUG pyvirtualdisplay] version=0.2.5
+[2021-01-11 05:28:50,099 DEBUG pyscreenshot] version=0.5.1
+[2021-01-11 05:28:50,099 DEBUG root] Loading class: 'VirtualDisplay' from <module 'bzt.modules.services' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/services.py'>
+[2021-01-11 05:28:50,100 DEBUG Engine] Module config: cloud-utils {'class': 'bztcloud.CloudUtilsService', 'commands-channel': {'timeout': '60s', 'url': 'https://a.blazemeter.com/api/v4/taurus/{session_id}/poll'}, 'destination-bucket': {'aws_key_id': None, 'aws_key_secret': None, 'url': None}, 'hosts': ['127.0.0.1 google.com', '127.0.0.1 blazemeter.com'], 'jetlag-download': '', 'jetlag-url': '', 'session': {'session_id': 'r-v4-5ffbe1d526ef3', 'signature': 'ci12NC01ZmZiZTFkNTI2ZWYzOjE2MTE1NTI1Mjg6OTlkZjJkYjNhM2I4ZmJlNzIzNzk4MGIwYTA1ZDdlYzRkYTU3MmY0NWZiZTcyNjMyZDQzMjUyZGM2Y2JmYWU0MmY5N2QyOWRkNWFhYTI1MTg5Zjk3NzNhMWE3Njc3NDcwMTAxY2RjNTEwZjg3MTk2NTM3NzJkMGRkMWMyZjM2MjU=', 'test_id': 8899484, 'user_id': 1161900, 'master_id': 32840237, 'session_token': '********'}, 'shutdown-script': 'python -c "from pyscripts.cloud_shutdown import CloudShutdown; CloudShutdown()"', 'start-allow-limit': '1ms', 'start-allow-sleep-interval': '1s', 'start-limit-exceeded-shutdown': False, 'status-notify-timeout': '60s', 'status-notify-url': 'https://a.blazemeter.com/api/v4/taurus/r-v4-5ffbe1d526ef3/notify', 'aws-params': {'bucket-name': 'blazemeter-gcp', 'data-path': None, 'data-path-array': ['masters/32840237/tests/8899484', 'masters/32840237/folders', 'masters/32840237/files/common'], 'endpoint_url': 'https://storage.blazemeter.com', 'key-id': 'BZMCRED2E348C5F961248F4B21C8701985BB17C', 'region': 'us-east-1', 'report-path': 'masters/32840237/sessions/r-v4-5ffbe1d526ef3', 'secret': '********', 'shared-folders': {}, 'token': '********', 'url': 's3://blazemeter-gcp/masters/32840237/sessions/r-v4-5ffbe1d526ef3/'}, 'delayed-start': False, 'jetlag-args': '', 'jetpack-config': {'acceleratedStart': True, 'compress': True, 'downloadUrl': '', 'maxDataBufferSeconds': 10, 'maxLabels': 100, 'maxLabelsBufferSeconds': 2, 'metadata': {'finishedFileData': 'finished-jetpack-data', 'finishedFileLabels': 'finished-jetpack-labels', 'locationId': 'us-east4-a', 'masterId': '32840237', 'scenarioId': '4673e6fefa76c36a1a527bdd84fdd6e714b29f535e541376c1a92e507bb966f9', 'sessionCount': 1, 'sessionId': 'r-v4-5ffbe1d526ef3', 'sessionToken': '********', 'testId': 8899484, 'userId': 1161900}, 'submitUrl': 'https://data.blazemeter.com/submit.php'}, 'session-token': '********', 'sleep-after': 0}
+[2021-01-11 05:28:50,100 DEBUG root] Importing module: bztcloud
+[2021-01-11 05:28:50,100 DEBUG root] Loading class: 'CloudUtilsService' from <module 'bztcloud' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/__init__.py'>
+[2021-01-11 05:28:50,101 DEBUG Engine] Module config: periodic-uploader {'class': 'bztcloud.PeriodicFileUploader', 'enabled': True, 'file_names_for_prepare': ['/tmp/artifacts/bzt.log', '/tmp/artifacts/jmeter.log'], 'tail_files_for_prepare': ['/tmp/artifacts/bzt.log', '/tmp/artifacts/jmeter.log'], 'tail_length': 300, 'upload_interval': 60}
+[2021-01-11 05:28:50,101 DEBUG root] Importing module: bztcloud
+[2021-01-11 05:28:50,101 DEBUG root] Loading class: 'PeriodicFileUploader' from <module 'bztcloud' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/__init__.py'>
+[2021-01-11 05:28:50,101 DEBUG Engine] Module config: initial-uploader {'class': 'bztcloud.InitialFileUploader', 'enabled': True, 'file_names_for_prepare': ['/tmp/artifacts/effective.yml', '/tmp/artifacts/effective.json', '/tmp/artifacts/merged.yml', '/tmp/artifacts/merged.json', '/tmp/artifacts/admin/cloud-launcher.log'], 'file_names_for_startup': ['/tmp/artifacts/*.jmx'], 'upload_interval': 0}
+[2021-01-11 05:28:50,101 DEBUG root] Importing module: bztcloud
+[2021-01-11 05:28:50,101 DEBUG root] Loading class: 'InitialFileUploader' from <module 'bztcloud' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/__init__.py'>
+[2021-01-11 05:28:50,101 DEBUG Engine] Module config: version-switch {'class': 'bztcloud.VersionSwitcherService', 'switch-java': None}
+[2021-01-11 05:28:50,101 DEBUG root] Importing module: bztcloud
+[2021-01-11 05:28:50,101 DEBUG root] Loading class: 'VersionSwitcherService' from <module 'bztcloud' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/__init__.py'>
+[2021-01-11 05:28:50,101 DEBUG Engine] Module config: timelimit {'class': 'bztcloud.helpers.timelimiter.TimeLimiter'}
+[2021-01-11 05:28:50,101 DEBUG root] Importing module: bztcloud.helpers.timelimiter
+[2021-01-11 05:28:50,103 DEBUG root] Loading class: 'TimeLimiter' from <module 'bztcloud.helpers.timelimiter' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/helpers/timelimiter.py'>
+[2021-01-11 05:28:50,103 DEBUG Engine] Module config: shellexec {'class': 'bzt.modules.shellexec.ShellExecutor'}
+[2021-01-11 05:28:50,103 DEBUG root] Importing module: bzt.modules.shellexec
+[2021-01-11 05:28:50,103 DEBUG root] Loading class: 'ShellExecutor' from <module 'bzt.modules.shellexec' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/shellexec.py'>
+[2021-01-11 05:28:50,103 DEBUG Engine] Module config: s3downloader {'class': 'bztcloud.S3Downloader'}
+[2021-01-11 05:28:50,103 DEBUG root] Importing module: bztcloud
+[2021-01-11 05:28:50,103 DEBUG root] Loading class: 'S3Downloader' from <module 'bztcloud' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/__init__.py'>
+[2021-01-11 05:28:50,104 WARNING Engine] Module 'timelimit' can be only used once, will merge all new instances into single
+[2021-01-11 05:28:50,104 DEBUG Engine] Module config: final-notifier {'class': 'bztcloud.FinalNotifier'}
+[2021-01-11 05:28:50,104 DEBUG root] Importing module: bztcloud
+[2021-01-11 05:28:50,104 DEBUG root] Loading class: 'FinalNotifier' from <module 'bztcloud' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/__init__.py'>
+[2021-01-11 05:28:50,105 DEBUG Engine] Module config: dynjmx {'class': 'bztcloud.helpers.dynjmx.JMXOverrider'}
+[2021-01-11 05:28:50,105 DEBUG root] Importing module: bztcloud.helpers.dynjmx
+[2021-01-11 05:28:50,106 DEBUG root] Loading class: 'JMXOverrider' from <module 'bztcloud.helpers.dynjmx' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcloud/helpers/dynjmx.py'>
+[2021-01-11 05:28:50,106 DEBUG Engine.cloud-utils] Cloud modules version: 0.3.8
+[2021-01-11 05:28:50,107 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5ffbe1d526ef3/notify {
+ "status": "preparing",
+ "token": "ci12NC01ZmZiZTFkNTI2ZWYzOjE2MTE1NTI1Mjg6OTlkZjJkYjNhM2I4ZmJlNzIzNzk4MGIwYTA1ZDdlYzRkYTU3MmY0NWZiZTcyNjMyZDQzMjUyZGM2Y2JmYWU0MmY5N2QyOWRkNWFhYTI1MTg5Zjk3NzNhMWE3Njc3NDcwMTAxY2RjNTEwZjg3MTk2NTM3NzJkMGRkMWMyZjM2MjU="
+}
+[2021-01-11 05:28:50,110 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com:443
+[2021-01-11 05:28:50,162 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5ffbe1d526ef3/notify HTTP/1.1" 200 131
+[2021-01-11 05:28:50,164 DEBUG Engine.cloud-utils] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "preparing"
+    },
+    "request_id": "5ffbe2122372b"
+}
+[2021-01-11 05:28:50,165 DEBUG Engine.cloud-utils] Long polling, request commands from (sleep 1): https://a.blazemeter.com/api/v4/taurus/r-v4-5ffbe1d526ef3/poll
+[2021-01-11 05:28:50,165 DEBUG Engine.cloud-utils] Successfully setup jetpack parameters
+[2021-01-11 05:28:50,166 DEBUG Engine.periodic-uploader] files to upload:
+[2021-01-11 05:28:50,166 DEBUG Engine.periodic-uploader] /tmp/artifacts/bzt.log /tmp/artifacts/jmeter.log
+[2021-01-11 05:28:50,168 DEBUG Engine.periodic-uploader] Starting Periodic File Uploader
+[2021-01-11 05:28:50,169 DEBUG root] Executing shell: ['python', '-m', 'bztcloud.helpers.S3', '--periodic', '60', '--aws_params', '/tmp/tmpkvz_g0ce.yml', '--periodic_tail', '["/tmp/artifacts/bzt.log", "/tmp/artifacts/jmeter.log"]', '--tail_length', '300', '/tmp/artifacts/bzt.log', '/tmp/artifacts/jmeter.log'] at .
+[2021-01-11 05:28:50,165 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5ffbe1d526ef3/poll {
+ "token": "ci12NC01ZmZiZTFkNTI2ZWYzOjE2MTE1NTI1Mjg6OTlkZjJkYjNhM2I4ZmJlNzIzNzk4MGIwYTA1ZDdlYzRkYTU3MmY0NWZiZTcyNjMyZDQzMjUyZGM2Y2JmYWU0MmY5N2QyOWRkNWFhYTI1MTg5Zjk3NzNhMWE3Njc3NDcwMTAxY2RjNTEwZjg3MTk2NTM3NzJkMGRkMWMyZjM2MjU="
+}
+[2021-01-11 05:28:50,177 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com:443
+[2021-01-11 05:28:50,181 DEBUG Engine.periodic-uploader] Periodic File Uploader started
+[2021-01-11 05:28:50,181 DEBUG Engine.initial-uploader] files to upload:
+[2021-01-11 05:28:50,182 DEBUG Engine.initial-uploader] /tmp/artifacts/effective.yml /tmp/artifacts/effective.json /tmp/artifacts/merged.yml /tmp/artifacts/merged.json /tmp/artifacts/admin/cloud-launcher.log
+[2021-01-11 05:28:50,184 DEBUG Engine.initial-uploader] Starting Periodic File Uploader
+[2021-01-11 05:28:50,184 DEBUG root] Executing shell: ['python', '-m', 'bztcloud.helpers.S3', '--periodic', '0', '--aws_params', '/tmp/tmp3id85s32.yml', '/tmp/artifacts/effective.yml', '/tmp/artifacts/effective.json', '/tmp/artifacts/merged.yml', '/tmp/artifacts/merged.json', '/tmp/artifacts/admin/cloud-launcher.log'] at .
+[2021-01-11 05:28:50,202 DEBUG Engine.initial-uploader] Periodic File Uploader started
+[2021-01-11 05:28:50,206 WARNING Engine.version-switch] Path not exists: /shared/.bzt/jmeter-taurus/auto
+[2021-01-11 05:28:50,212 DEBUG Engine.version-switch] Setting Gatling version to 3.1.2
+[2021-01-11 05:28:50,213 DEBUG Engine] New artifact filename: /tmp/artifacts/shellexec_prepare_0.out
+[2021-01-11 05:28:50,213 DEBUG Engine.shellexec] STDOUT of background task "python -c "from pyscripts.utils import atop; atop('-a', '-w', '/tmp/artifacts/admin/atop.binlog', '15')"" redirected to "/tmp/artifacts/shellexec_prepare_0.out"
+[2021-01-11 05:28:50,213 DEBUG Engine] New artifact filename: /tmp/artifacts/shellexec_prepare_0.err
+[2021-01-11 05:28:50,213 DEBUG Engine.shellexec] STDERR of background task "python -c "from pyscripts.utils import atop; atop('-a', '-w', '/tmp/artifacts/admin/atop.binlog', '15')"" redirected to "/tmp/artifacts/shellexec_prepare_0.err"
+[2021-01-11 05:28:50,213 DEBUG Engine.shellexec] Added prepare task: {'background': True, 'command': 'python -c "from pyscripts.utils import atop; atop(\'-a\', \'-w\', \'/tmp/artifacts/admin/atop.binlog\', \'15\')"', 'cwd': '/tmp/artifacts/admin', 'ignore-failure': True}
+[2021-01-11 05:28:50,213 DEBUG Engine.shellexec] Added prepare task: {'background': False, 'command': 'python -c "from pyscripts.jetlag import Jetlag as jl; jl.download()"', 'cwd': '/tmp/artifacts', 'err': '/tmp/artifacts/jetlag-download.log', 'out': '/tmp/artifacts/jetlag-download.log'}
+[2021-01-11 05:28:50,214 DEBUG Engine.shellexec] Added prepare task: {'background': True, 'command': 'python -c "from pyscripts.jetlag import Jetlag as jl; jl.run()"', 'cwd': '/tmp/artifacts', 'err': '/tmp/artifacts/jetlag.log', 'out': '/tmp/artifacts/jetlag.log'}
+[2021-01-11 05:28:50,214 DEBUG Engine.shellexec] Added prepare task: {'background': False, 'command': 'python -c "from pyscripts.jetpack import Jetpack as jp; jp.download()"', 'cwd': '/tmp/artifacts', 'err': '/tmp/artifacts/jetpack-download.log', 'ignore-failure': True, 'out': '/tmp/artifacts/jetpack-download.log'}
+[2021-01-11 05:28:50,214 DEBUG Engine.shellexec] Added prepare task: {'background': True, 'command': 'python -c "from pyscripts.jetpack import Jetpack as jp; jp.run()"', 'cwd': '/tmp/artifacts', 'err': '/tmp/artifacts/jetpack.log', 'ignore-failure': True, 'out': '/tmp/artifacts/jetpack.log'}
+[2021-01-11 05:28:50,214 DEBUG Engine.shellexec] Added post-process task: {'background': False, 'command': 'python -c "from pyscripts.handlers import ProcessHandler as ph; ph.kill()"', 'cwd': '/tmp/artifacts/admin', 'err': '/tmp/artifacts/admin/process-cleanup.log', 'out': '/tmp/artifacts/admin/process-cleanup.log'}
+[2021-01-11 05:28:50,214 INFO Engine.shellexec.Task] Starting shell command: python -c "from pyscripts.utils import atop; atop('-a', '-w', '/tmp/artifacts/admin/atop.binlog', '15')"
+[2021-01-11 05:28:50,216 DEBUG root] Executing shell: python -c "from pyscripts.utils import atop; atop('-a', '-w', '/tmp/artifacts/admin/atop.binlog', '15')" at /tmp/artifacts/admin
+[2021-01-11 05:28:50,234 DEBUG Engine.shellexec.Task] Task started, PID: 31
+[2021-01-11 05:28:50,235 INFO Engine.shellexec.Task] Starting shell command: python -c "from pyscripts.jetlag import Jetlag as jl; jl.download()"
+[2021-01-11 05:28:50,236 DEBUG root] Executing shell: python -c "from pyscripts.jetlag import Jetlag as jl; jl.download()" at /tmp/artifacts
+[2021-01-11 05:28:50,282 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5ffbe1d526ef3/poll HTTP/1.1" 200 109
+[2021-01-11 05:28:50,284 DEBUG Engine.cloud-utils] Response [200]: {"session_key":"TAURUS:r-v4-5ffbe1d526ef3","cmd":"start","timestamp":1610342873,"message_id":"5ffbe1d9ad02a"}
+[2021-01-11 05:28:50,284 DEBUG Engine.cloud-utils] Got command from server: {'session_key': 'TAURUS:r-v4-5ffbe1d526ef3', 'cmd': 'start', 'timestamp': 1610342873, 'message_id': '5ffbe1d9ad02a'}
+[2021-01-11 05:28:50,284 DEBUG Engine.cloud-utils] Long polling, request commands from (sleep 1): https://a.blazemeter.com/api/v4/taurus/r-v4-5ffbe1d526ef3/poll
+[2021-01-11 05:28:50,284 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5ffbe1d526ef3/poll {
+ "token": "ci12NC01ZmZiZTFkNTI2ZWYzOjE2MTE1NTI1Mjg6OTlkZjJkYjNhM2I4ZmJlNzIzNzk4MGIwYTA1ZDdlYzRkYTU3MmY0NWZiZTcyNjMyZDQzMjUyZGM2Y2JmYWU0MmY5N2QyOWRkNWFhYTI1MTg5Zjk3NzNhMWE3Njc3NDcwMTAxY2RjNTEwZjg3MTk2NTM3NzJkMGRkMWMyZjM2MjU="
+}
+[2021-01-11 05:28:52,801 DEBUG Engine.shellexec.Task] Task was finished with exit code 0: python -c "from pyscripts.jetlag import Jetlag as jl; jl.download()"
+[2021-01-11 05:28:52,801 INFO Engine.shellexec.Task] Starting shell command: python -c "from pyscripts.jetlag import Jetlag as jl; jl.run()"
+[2021-01-11 05:28:52,803 DEBUG root] Executing shell: python -c "from pyscripts.jetlag import Jetlag as jl; jl.run()" at /tmp/artifacts
+[2021-01-11 05:28:52,819 DEBUG Engine.shellexec.Task] Task started, PID: 65
+[2021-01-11 05:28:52,819 INFO Engine.shellexec.Task] Starting shell command: python -c "from pyscripts.jetpack import Jetpack as jp; jp.download()"
+[2021-01-11 05:28:52,820 DEBUG root] Executing shell: python -c "from pyscripts.jetpack import Jetpack as jp; jp.download()" at /tmp/artifacts
+[2021-01-11 05:28:54,264 DEBUG Engine.shellexec.Task] Task was finished with exit code 0: python -c "from pyscripts.jetpack import Jetpack as jp; jp.download()"
+[2021-01-11 05:28:54,265 INFO Engine.shellexec.Task] Starting shell command: python -c "from pyscripts.jetpack import Jetpack as jp; jp.run()"
+[2021-01-11 05:28:54,267 DEBUG root] Executing shell: python -c "from pyscripts.jetpack import Jetpack as jp; jp.run()" at /tmp/artifacts
+[2021-01-11 05:28:54,273 DEBUG Engine.shellexec.Task] Task started, PID: 96
+[2021-01-11 05:28:54,273 INFO root] Creating new s3 client instance
+[2021-01-11 05:28:54,274 DEBUG root] S3 credential polling interval to set: 0.0
+[2021-01-11 05:28:54,274 INFO root] Polling is not set for this client - S3 client will be created with the given environment variables and will not refresh
+[2021-01-11 05:28:54,274 INFO root] Creating new client: [{'endpoint_url': 'https://storage.blazemeter.com'}, {'aws_access_key_id': '*****'}, {'aws_secret_access_key': '*****'}, {'config': <botocore.config.Config object at 0x7ff48cfd6da0>}, {'region_name': 'us-east-1'}, {'verify': True}, {'aws_session_token': 'Tk9BQ0NFU1NUT0tFTg=='}]
+[2021-01-11 05:28:54,513 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): storage.blazemeter.com:443
+[2021-01-11 05:28:54,617 DEBUG urllib3.connectionpool] https://storage.blazemeter.com:443 "GET /blazemeter-gcp?prefix=masters%2F32840237%2Ftests%2F8899484&encoding-type=url HTTP/1.1" 200 551
+[2021-01-11 05:28:54,622 DEBUG Engine.s3downloader] objects for download: [s3.ObjectSummary(bucket_name='blazemeter-gcp', key='masters/32840237/tests/8899484/1.A - Teste Simples Extra.jmx')]
+[2021-01-11 05:28:54,622 DEBUG Engine.s3downloader] Downloading from S3: masters/32840237/tests/8899484/1.A - Teste Simples Extra.jmx => /tmp/artifacts/1.A - Teste Simples Extra.jmx
+[2021-01-11 05:28:54,730 DEBUG urllib3.connectionpool] https://storage.blazemeter.com:443 "HEAD /blazemeter-gcp/masters/32840237/tests/8899484/1.A%20-%20Teste%20Simples%20Extra.jmx HTTP/1.1" 200 0
+[2021-01-11 05:28:54,832 DEBUG urllib3.connectionpool] https://storage.blazemeter.com:443 "GET /blazemeter-gcp/masters/32840237/tests/8899484/1.A%20-%20Teste%20Simples%20Extra.jmx HTTP/1.1" 200 14228
+[2021-01-11 05:28:54,907 DEBUG urllib3.connectionpool] https://storage.blazemeter.com:443 "GET /blazemeter-gcp?prefix=masters%2F32840237%2Ffolders&encoding-type=url HTTP/1.1" 200 260
+[2021-01-11 05:28:54,909 DEBUG Engine.s3downloader] objects for download: []
+[2021-01-11 05:28:54,991 DEBUG urllib3.connectionpool] https://storage.blazemeter.com:443 "GET /blazemeter-gcp?prefix=masters%2F32840237%2Ffiles%2Fcommon&encoding-type=url HTTP/1.1" 200 265
+[2021-01-11 05:28:54,994 DEBUG Engine.s3downloader] objects for download: []
+[2021-01-11 05:28:54,994 DEBUG Engine.shellexec] Added prepare task: {'command': 'find . -name \'*.zip\' -exec sh -c \'unzip -o "$0"\' \'{}\' \';\'', 'ignore-failure': True}
+[2021-01-11 05:28:54,994 INFO Engine.shellexec.Task] Starting shell command: find . -name '*.zip' -exec sh -c 'unzip -o "$0"' '{}' ';'
+[2021-01-11 05:28:54,995 DEBUG root] Executing shell: find . -name '*.zip' -exec sh -c 'unzip -o "$0"' '{}' ';' at /tmp/artifacts
+[2021-01-11 05:28:55,090 DEBUG Engine.shellexec.Task] Task was finished with exit code 0: find . -name '*.zip' -exec sh -c 'unzip -o "$0"' '{}' ';'
+[2021-01-11 05:28:55,091 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2021-01-11 05:28:55,091 DEBUG root] Importing module: bzt.modules.provisioning
+[2021-01-11 05:28:55,091 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/provisioning.py'>
+[2021-01-11 05:28:55,091 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst', 'jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst', 'jpgc-webdriver', 'jpgc-wsc', 'bzm-siebel', 'bzm-hls', 'bzm-http2', 'bzm-rte', 'bzm-jmeter-citrix-plugin'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jpgc.repo.sendstats': 'false'}, 'version': 'auto'}
+[2021-01-11 05:28:55,091 DEBUG root] Importing module: bzt.modules.jmeter
+[2021-01-11 05:28:55,091 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/jmeter.py'>
+[2021-01-11 05:28:55,092 DEBUG Engine.local] Preparing executor: jmeter/140688029113648
+[2021-01-11 05:28:55,092 DEBUG Engine] New artifact filename: /tmp/artifacts/jmeter.log
+[2021-01-11 05:28:55,093 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2021-01-11 05:28:55,093 DEBUG Engine.jmeter] Port 4445 is free
+[2021-01-11 05:28:55,093 DEBUG Engine.jmeter] Using port 4445 for management
+[2021-01-11 05:28:55,143 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jpgc.repo.sendstats': 'false', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': '/tmp/artifacts:/tmp/artifacts'}
+[2021-01-11 05:28:55,143 DEBUG Engine] New artifact filename: /tmp/artifacts/jmeter-bzt.properties
+[2021-01-11 05:28:55,144 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2021-01-11 05:28:55,145 DEBUG root] Executing shell: ['java', '-version'] at .
+[2021-01-11 05:28:56,210 DEBUG Engine.jmeter.JavaVM] JavaVM output: openjdk version "1.8.0_275"
+OpenJDK Runtime Environment (build 1.8.0_275-8u275-b01-0ubuntu1~18.04-b01)
+OpenJDK 64-Bit Server VM (build 25.275-b01, mixed mode)
+
+[2021-01-11 05:28:56,211 DEBUG Engine.jmeter.TclLibrary] We don't need to check tcl library on this platform
+[2021-01-11 05:28:56,214 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2021-01-11 05:28:56,215 DEBUG root] Executing shell: ['/shared/.bzt/jmeter-taurus/5.2.1/bin/jmeter.sh', '-j', '/tmp/jmeterns0pu3_jlog', '--version'] at .
+[2021-01-11 05:29:03,953 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.2.1
+
+Copyright (c) 1999-2019 The Apache Software Foundation
+
+ / OpenJDK 64-Bit Server VM warning: ignoring option PermSize=64m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64m; support was removed in 8.0
+Jan 11, 2021 5:29:02 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+
+[2021-01-11 05:29:03,955 DEBUG Engine] New artifact filename: /tmp/artifacts/kpi.jtl
+[2021-01-11 05:29:03,956 DEBUG Engine] New artifact filename: /tmp/artifacts/error.jtl
+[2021-01-11 05:29:03,957 INFO Engine.jmeter] 1 obsolete CookieManagers are found and fixed
+[2021-01-11 05:29:03,958 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=20, throughput=None, ramp_up=60.0, hold=1140.0, iterations=0, duration=1200.0, steps=0)
+[2021-01-11 05:29:03,960 DEBUG Engine.jmeter.LoadSettingsProcessor.ThreadGroupHandler] Converting ThreadGroup (Compra simulada de um produto, passando pelo processo de compra até o carrinho) to ConcurrencyThreadGroup and apply load parameters
+[2021-01-11 05:29:03,960 DEBUG JMX] Saving JMX to: /tmp/artifacts/modified_1.A - Teste Simples Extra.jmx
+[2021-01-11 05:29:03,961 DEBUG root] Executing shell: ['/shared/.bzt/jmeter-taurus/5.2.1/bin/PluginsManagerCMD.sh', 'install-for-jmx', '/tmp/artifacts/modified_1.A - Teste Simples Extra.jmx'] at .
+[2021-01-11 05:29:10,686 DEBUG Engine.jmeter.JMeter] Try to detect plugins for /tmp/artifacts/modified_1.A - Teste Simples Extra.jmx
+2021-01-11 05:29:05,765 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2021-01-11 05:29:05,872 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=linux-71bc1e5676725922d66f1d93e6b94e39-nongui
+2021-01-11 05:29:08,397 INFO o.j.r.PluginManager: Plugins Status: [bzm-jmeter-citrix-plugin=0.7.0, bzm-siebel=1.1.1, bzm-hls=3.0.3, bzm-http2=1.6, bzm-rte=3.1, jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.3, jpgc-webdriver=3.3, jpgc-tst=2.5, jpgc-wsc=0.7, jmeter-core=5.2.1, jmeter-ftp=5.2.1, jmeter-http=5.2.1, jmeter-jdbc=5.2.1, jmeter-jms=5.2.1, jmeter-junit=5.2.1, jmeter-java=5.2.1, jmeter-ldap=5.2.1, jmeter-mail=5.2.1, jmeter-mongodb=5.2.1, jmeter-native=5.2.1, jmeter-tcp=5.2.1, jmeter-components=5.2.1]
+2021-01-11 05:29:08,404 INFO o.j.r.PluginManagerCMD: Params line is: /tmp/artifacts/modified_1.A - Teste Simples Extra.jmx
+2021-01-11 05:29:09,297 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-01-11 05:29:09,316 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-01-11 05:29:09,340 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-01-11 05:29:09,476 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2021-01-11 05:29:09,832 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-11 05:29:09,832 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-11 05:29:09,832 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-11 05:29:09,833 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-11 05:29:09,833 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-01-11 05:29:09,834 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-01-11 05:29:10,036 INFO o.j.r.JARSourceHTTP: Downloading: https://github.com/Blazemeter/HLSPlugin/releases/download/v3.0.3/hlsparserj-c287e78.jar
+2021-01-11 05:29:10,037 INFO o.j.r.PluginManagerCMD: Downloading hlsparserj...
+2021-01-11 05:29:10,219 WARN o.a.h.c.p.ResponseProcessCookies: Invalid cookie header: "Set-Cookie: _octo=GH1.1.198492802.1610342950; Path=/; Domain=github.com; Expires=Tue, 11 Jan 2022 05:29:10 GMT; Secure; SameSite=Lax". Invalid 'expires' attribute: Tue, 11 Jan 2022 05:29:10 GMT
+2021-01-11 05:29:10,220 WARN o.a.h.c.p.ResponseProcessCookies: Invalid cookie header: "Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 11 Jan 2022 05:29:10 GMT; HttpOnly; Secure; SameSite=Lax". Invalid 'expires' attribute: Tue, 11 Jan 2022 05:29:10 GMT
+2021-01-11 05:29:10,294 INFO o.j.r.PluginManagerCMD: Downloaded hlsparserj...
+2021-01-11 05:29:10,295 INFO o.j.r.JARSourceHTTP: Downloading: https://github.com/Blazemeter/HLSPlugin/releases/download/v3.0.3/mpd-parser-0.8-jdk8.jar
+2021-01-11 05:29:10,296 INFO o.j.r.PluginManagerCMD: Downloading mpd-parser...
+2021-01-11 05:29:10,462 WARN o.a.h.c.p.ResponseProcessCookies: Invalid cookie header: "Set-Cookie: _octo=GH1.1.694598594.1610342950; Path=/; Domain=github.com; Expires=Tue, 11 Jan 2022 05:29:10 GMT; Secure; SameSite=Lax". Invalid 'expires' attribute: Tue, 11 Jan 2022 05:29:10 GMT
+2021-01-11 05:29:10,462 WARN o.a.h.c.p.ResponseProcessCookies: Invalid cookie header: "Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Tue, 11 Jan 2022 05:29:10 GMT; HttpOnly; Secure; SameSite=Lax". Invalid 'expires' attribute: Tue, 11 Jan 2022 05:29:10 GMT
+2021-01-11 05:29:10,514 INFO o.j.r.PluginManagerCMD: Downloaded mpd-parser...
+2021-01-11 05:29:10,516 INFO o.j.r.PluginManager: Plugins manager will apply some modifications
+2021-01-11 05:29:10,544 Thread-3 WARN Unable to register Log4j shutdown hook because JVM is shutting down. Using SimpleLogger
+
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=64m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=64m; support was removed in 8.0
+
+[2021-01-11 05:29:15,692 DEBUG Engine] New artifact filename: /tmp/artifacts/jmeter.out
+[2021-01-11 05:29:15,692 DEBUG Engine] New artifact filename: /tmp/artifacts/jmeter.err
+[2021-01-11 05:29:15,693 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2021-01-11 05:29:15,693 DEBUG root] Importing module: bzt.modules.reporting
+[2021-01-11 05:29:15,719 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/reporting.py'>
+[2021-01-11 05:29:15,719 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter', 'disable': True}
+[2021-01-11 05:29:15,720 DEBUG root] Importing module: bzt.modules.console
+[2021-01-11 05:29:15,720 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/console.py'>
+[2021-01-11 05:29:15,720 DEBUG Engine] Module config: ldjson-results {'class': 'bztcustom.ldjsonresults.LDJSONExporter'}
+[2021-01-11 05:29:15,720 DEBUG root] Importing module: bztcustom.ldjsonresults
+[2021-01-11 05:29:15,724 DEBUG root] Loading class: 'LDJSONExporter' from <module 'bztcustom.ldjsonresults' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bztcustom/ldjsonresults.py'>
+[2021-01-11 05:29:15,725 DEBUG Engine] Module config: blazemeter {'class': 'bzt.modules.blazemeter.BlazeMeterUploader', 'browser-open': 'none', 'address': 'https://a.blazemeter.com', 'data-address': 'https://data.blazemeter.com'}
+[2021-01-11 05:29:15,725 DEBUG root] Importing module: bzt.modules.blazemeter
+[2021-01-11 05:29:15,725 DEBUG root] Loading class: 'BlazeMeterUploader' from <module 'bzt.modules.blazemeter' from '/usr/local/taurus-cloud/python/lib/python3.6/site-packages/bzt/modules/blazemeter.py'>
+[2021-01-11 05:29:15,725 WARNING Engine.blazemeter] No BlazeMeter API key provided, will upload anonymously
+[2021-01-11 05:29:15,726 DEBUG Engine.blazemeter] Installing http client
+[2021-01-11 05:29:15,731 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/effective.yml
+[2021-01-11 05:29:15,789 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/effective.json
+[2021-01-11 05:29:15,791 INFO Engine] Starting...
+[2021-01-11 05:29:15,792 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x7ff495718780>
+[2021-01-11 05:29:15,793 DEBUG Engine] Startup <bztcloud.helpers.forcedheaders.ForcedHeaders object at 0x7ff4957baa20>
+[2021-01-11 05:29:15,793 DEBUG Engine] Startup <bzt.modules.services.VirtualDisplay object at 0x7ff48eb83e10>
+[2021-01-11 05:29:15,793 DEBUG easyprocess] command: ['Xvfb', '-help']
+[2021-01-11 05:29:15,853 DEBUG easyprocess] process was started (pid=252)
+[2021-01-11 05:29:16,221 DEBUG easyprocess] process has ended, return code=0
+[2021-01-11 05:29:16,222 DEBUG easyprocess] command: ['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', ':1000']
+[2021-01-11 05:29:16,222 DEBUG easyprocess] command: ['xauth', '-V']
+[2021-01-11 05:29:16,254 DEBUG easyprocess] process was started (pid=253)
+[2021-01-11 05:29:16,258 DEBUG easyprocess] process has ended, return code=0
+[2021-01-11 05:29:16,259 DEBUG easyprocess] command: ['Xvfb', '-br', '-nolisten', 'tcp', '-screen', '0', '1024x768x24', ':1001']
+[2021-01-11 05:29:16,259 DEBUG easyprocess] command: ['xauth', 'add', ':1001', '.', 'b05571478c5ff515bbe10a877abf8cf7']
+[2021-01-11 05:29:16,265 DEBUG easyprocess] process was started (pid=254)
+[2021-01-11 05:29:16,268 DEBUG easyprocess] process has ended, return code=0
+[2021-01-11 05:29:16,268 DEBUG easyprocess] stdout=
+[2021-01-11 05:29:16,268 DEBUG easyprocess] stderr=
+[2021-01-11 05:29:16,274 DEBUG easyprocess] process was started (pid=255)
+[2021-01-11 05:29:16,275 DEBUG pyvirtualdisplay.abstractdisplay] DISPLAY=:1001
+[2021-01-11 05:29:16,275 DEBUG easyprocess] command: ['xdpyinfo']
+[2021-01-11 05:29:16,314 DEBUG easyprocess] process was started (pid=256)
+[2021-01-11 05:29:18,202 DEBUG easyprocess] process has ended, return code=0
+[2021-01-11 05:29:18,203 INFO pyvirtualdisplay.abstractdisplay] Successfully started X with display ":1001".
+[2021-01-11 05:29:18,203 INFO Engine.virtual-display] Starting virtual display[(1024, 768)] :1001
+[2021-01-11 05:29:18,204 DEBUG Engine] Startup <bztcloud.CloudUtilsService object at 0x7ff49573b320>
+[2021-01-11 05:29:18,210 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5ffbe1d526ef3/notify {
+ "status": "starting",
+ "token": "ci12NC01ZmZiZTFkNTI2ZWYzOjE2MTE1NTI1Mjg6OTlkZjJkYjNhM2I4ZmJlNzIzNzk4MGIwYTA1ZDdlYzRkYTU3MmY0NWZiZTcyNjMyZDQzMjUyZGM2Y2JmYWU0MmY5N2QyOWRkNWFhYTI1MTg5Zjk3NzNhMWE3Njc3NDcwMTAxY2RjNTEwZjg3MTk2NTM3NzJkMGRkMWMyZjM2MjU="
+}
+[2021-01-11 05:29:18,212 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com:443
+[2021-01-11 05:29:18,269 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5ffbe1d526ef3/notify HTTP/1.1" 200 130
+[2021-01-11 05:29:18,270 DEBUG Engine.cloud-utils] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "starting"
+    },
+    "request_id": "5ffbe22e3d4a6"
+}
+[2021-01-11 05:29:18,271 INFO Engine.cloud-utils] Setting bsh port for jmeter/default-scenario-8899484 to 9000
+[2021-01-11 05:29:18,274 DEBUG Engine.cloud-utils] Request: POST https://a.blazemeter.com/api/v4/taurus/r-v4-5ffbe1d526ef3/notify {
+ "status": "ready",
+ "token": "ci12NC01ZmZiZTFkNTI2ZWYzOjE2MTE1NTI1Mjg6OTlkZjJkYjNhM2I4ZmJlNzIzNzk4MGIwYTA1ZDdlYzRkYTU3MmY0NWZiZTcyNjMyZDQzMjUyZGM2Y2JmYWU0MmY5N2QyOWRkNWFhYTI1MTg5Zjk3NzNhMWE3Njc3NDcwMTAxY2RjNTEwZjg3MTk2NTM3NzJkMGRkMWMyZjM2MjU="
+}
+[2021-01-11 05:29:18,276 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): a.blazemeter.com:443
+[2021-01-11 05:29:18,338 DEBUG urllib3.connectionpool] https://a.blazemeter.com:443 "POST /api/v4/taurus/r-v4-5ffbe1d526ef3/notify HTTP/1.1" 200 127
+[2021-01-11 05:29:18,339 DEBUG Engine.cloud-utils] Response [200]: {
+    "api_version": 4,
+    "error": null,
+    "result": {
+        "status": "ready"
+    },
+    "request_id": "5ffbe22e4db8c"
+}
+[2021-01-11 05:29:18,339 INFO Engine.cloud-utils] Got start command
+[2021-01-11 05:29:18,340 INFO Engine.cloud-utils] Allowed to proceed with start
+[2021-01-11 05:29:18,340 DEBUG Engine] Startup <bztcloud.PeriodicFileUploader object at 0x7ff48eb0a278>
+[2021-01-11 05:29:18,340 DEBUG Engine] Startup <bztcloud.InitialFileUploader object at 0x7ff48eb0a2e8>
+[2021-01-11 05:29:18,340 DEBUG Engine.initial-uploader] files to upload:
+[2021-01-11 05:29:18,340 DEBUG Engine.initial-uploader] /tmp/artifacts/*.jmx
+[2021-01-11 05:29:18,342 DEBUG Engine.initial-uploader] Starting Periodic File Uploader
+[2021-01-11 05:29:18,343 DEBUG root] Executing shell: ['python', '-m', 'bztcloud.helpers.S3', '--periodic', '0', '--aws_params', '/tmp/tmp310g6pnd.yml', '/tmp/artifacts/*.jmx'] at .
+[2021-01-11 05:29:18,348 DEBUG Engine.initial-uploader] Periodic File Uploader started
+[2021-01-11 05:29:18,349 DEBUG Engine] Startup <bztcloud.VersionSwitcherService object at 0x7ff48eb0a358>
+[2021-01-11 05:29:18,350 DEBUG Engine] Startup <bztcloud.helpers.timelimiter.TimeLimiter object at 0x7ff48eb0a438>
+[2021-01-11 05:29:18,351 DEBUG Engine] Startup <bzt.modules.shellexec.ShellExecutor object at 0x7ff48eb0a4a8>
+[2021-01-11 05:29:18,351 DEBUG Engine] Startup <bztcloud.S3Downloader object at 0x7ff48eb0a630>
+[2021-01-11 05:29:18,351 DEBUG Engine] Startup <bzt.modules.shellexec.ShellExecutor object at 0x7ff48eb0a6a0>
+[2021-01-11 05:29:18,351 DEBUG Engine] Startup <bztcloud.FinalNotifier object at 0x7ff48eb0a748>
+[2021-01-11 05:29:18,351 DEBUG Engine] Startup <bztcloud.helpers.dynjmx.JMXOverrider object at 0x7ff48eb0af98>
+[2021-01-11 05:29:18,354 DEBUG Engine.dynjmx] Concurrency parameterization in ConcurrencyThreadGroup (Compra simulada de um produto, passando pelo processo de compra até o carrinho): 20 -> ${__P(BM_CTG_TargetLevel,20)}
+[2021-01-11 05:29:18,356 DEBUG Engine.dynjmx] Ramp-up parameterization in ConcurrencyThreadGroup (Compra simulada de um produto, passando pelo processo de compra até o carrinho): 60 -> ${__P(BM_CTG_RampUp,60)}
+[2021-01-11 05:29:18,356 DEBUG JMX] Saving JMX to: /tmp/artifacts/modified_1.A - Teste Simples Extra.jmx
+[2021-01-11 05:29:18,357 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x7ff49d67f780>
+[2021-01-11 05:29:18,357 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x7ff48c010ba8>
+[2021-01-11 05:29:18,358 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x7ff47bffd400>
+[2021-01-11 05:29:18,358 INFO Engine.console] Waiting for results...
+[2021-01-11 05:29:18,358 DEBUG Engine] Startup <bztcustom.ldjsonresults.LDJSONExporter object at 0x7ff48c33e240>
+[2021-01-11 05:29:18,359 DEBUG Engine] Startup <bzt.modules.blazemeter.BlazeMeterUploader object at 0x7ff47bffd320>
+[2021-01-11 05:29:18,359 DEBUG Engine] Startup <bztcustom.ldjsonresults.LDJSONExporter object at 0x7ff47b7469e8>
+[2021-01-11 05:29:18,359 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x7ff48eb18630>
+[2021-01-11 05:29:18,359 DEBUG Engine.local] Delay setup for jmeter/default-scenario-8899484: 0(start-at) + 0(delay) = 0
+[2021-01-11 05:29:18,364 DEBUG Engine.Configuration] Dumping YAML config into /tmp/artifacts/effective.yml
+[2021-01-11 05:29:18,453 DEBUG Engine.Configuration] Dumping JSON config into /tmp/artifacts/effective.json
+[2021-01-11 05:29:18,464 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2021-01-11 05:29:18,464 DEBUG root] Leveled up log file verbosity
+[2021-01-11 05:29:18,465 DEBUG root] Executing shell: ['/shared/.bzt/jmeter-taurus/5.2.1/bin/jmeter.sh', '-t', '/tmp/artifacts/modified_1.A - Teste Simples Extra.jmx', '-j', '/tmp/artifacts/jmeter.log', '-q', '/tmp/artifacts/jmeter-bzt.properties', '-n'] at /tmp/artifacts
+[2021-01-11 05:29:18,480 DEBUG Engine.local] Starting execution: jmeter/default-scenario-8899484, rest of available slots: 9223372036854775806
+[2021-01-11 05:29:18,480 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2021-01-11 05:29:28,502 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 3s
+[2021-01-11 05:29:30,593 INFO Engine.console] Current: 1 vu	1 succ	0 fail	1.602 avg rt	/	Cumulative: 1.602 avg rt, 0% failures
+[2021-01-11 05:29:30,594 INFO Engine.ldjson-results] /tmp/artifacts/exported.jetlag.ldjson file size [715 bytes]
+[2021-01-11 05:29:30,595 INFO Engine.ldjson-results] exported.jetlag.ldjson file size [715 bytes]
+[2021-01-11 05:29:32,548 INFO Engine.console] Current: 1 vu	1 succ	0 fail	0.290 avg rt	/	Cumulative: 0.946 avg rt, 0% failures
+[2021-01-11 05:29:33,684 INFO Engine.console] Current: 2 vu	4 succ	0 fail	0.137 avg rt	/	Cumulative: 0.407 avg rt, 0% failures
+[2021-01-11 05:29:34,581 INFO Engine.console] Current: 2 vu	5 succ	0 fail	0.243 avg rt	/	Cumulative: 0.332 avg rt, 0% failures
+[2021-01-11 05:29:35,510 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 2s
+[2021-01-11 05:29:35,638 INFO Engine.console] Current: 3 vu	5 succ	0 fail	0.225 avg rt	/	Cumulative: 0.257 avg rt, 0% failures
+[2021-01-11 05:29:36,542 INFO Engine.console] Current: 3 vu	8 succ	0 fail	0.061 avg rt	/	Cumulative: 0.199 avg rt, 0% failures
+[2021-01-11 05:29:37,935 INFO Engine.console] Current: 3 vu	9 succ	0 fail	0.050 avg rt	/	Cumulative: 0.161 avg rt, 0% failures
+[2021-01-11 05:29:38,636 INFO Engine.console] Current: 4 vu	8 succ	0 fail	0.132 avg rt	/	Cumulative: 0.156 avg rt, 0% failures
+[2021-01-11 05:29:39,746 INFO Engine.console] Current: 4 vu	9 succ	0 fail	0.092 avg rt	/	Cumulative: 0.145 avg rt, 0% failures
+[2021-01-11 05:29:40,561 INFO Engine.console] Current: 4 vu	10 succ	0 fail	0.111 avg rt	/	Cumulative: 0.140 avg rt, 0% failures
+[2021-01-11 05:29:41,648 INFO Engine.console] Current: 5 vu	11 succ	0 fail	0.121 avg rt	/	Cumulative: 0.137 avg rt, 0% failures
+[2021-01-11 05:29:42,592 INFO Engine.console] Current: 5 vu	12 succ	0 fail	0.121 avg rt	/	Cumulative: 0.135 avg rt, 0% failures
+[2021-01-11 05:29:43,585 INFO Engine.console] Current: 5 vu	11 succ	0 fail	0.137 avg rt	/	Cumulative: 0.135 avg rt, 0% failures
+[2021-01-11 05:29:44,567 INFO Engine.console] Current: 6 vu	14 succ	0 fail	0.084 avg rt	/	Cumulative: 0.129 avg rt, 0% failures
+[2021-01-11 05:29:45,580 INFO Engine.console] Current: 6 vu	16 succ	0 fail	0.093 avg rt	/	Cumulative: 0.124 avg rt, 0% failures
+[2021-01-11 05:29:46,641 INFO Engine.console] Current: 6 vu	15 succ	0 fail	0.075 avg rt	/	Cumulative: 0.119 avg rt, 0% failures
+[2021-01-11 05:29:47,589 INFO Engine.console] Current: 7 vu	16 succ	0 fail	0.128 avg rt	/	Cumulative: 0.120 avg rt, 0% failures
+[2021-01-11 05:29:48,578 INFO Engine.console] Current: 7 vu	17 succ	0 fail	0.081 avg rt	/	Cumulative: 0.116 avg rt, 0% failures
+[2021-01-11 05:29:49,593 INFO Engine.console] Current: 7 vu	20 succ	0 fail	0.061 avg rt	/	Cumulative: 0.110 avg rt, 0% failures
+[2021-01-11 05:29:50,681 INFO Engine.console] Current: 8 vu	19 succ	0 fail	0.092 avg rt	/	Cumulative: 0.109 avg rt, 0% failures
+[2021-01-11 05:29:51,567 INFO Engine.console] Current: 8 vu	21 succ	0 fail	0.078 avg rt	/	Cumulative: 0.106 avg rt, 0% failures
+[2021-01-11 05:29:52,592 INFO Engine.console] Current: 8 vu	20 succ	0 fail	0.102 avg rt	/	Cumulative: 0.106 avg rt, 0% failures
+[2021-01-11 05:29:53,593 INFO Engine.console] Current: 9 vu	21 succ	0 fail	0.091 avg rt	/	Cumulative: 0.105 avg rt, 0% failures
+[2021-01-11 05:29:54,793 INFO Engine.console] Current: 9 vu	24 succ	0 fail	0.118 avg rt	/	Cumulative: 0.106 avg rt, 0% failures
+[2021-01-11 05:29:55,612 INFO Engine.console] Current: 9 vu	21 succ	0 fail	0.117 avg rt	/	Cumulative: 0.106 avg rt, 0% failures
+[2021-01-11 05:29:56,712 INFO Engine.console] Current: 10 vu	22 succ	0 fail	0.100 avg rt	/	Cumulative: 0.106 avg rt, 0% failures
+[2021-01-11 05:29:57,587 INFO Engine.console] Current: 10 vu	26 succ	0 fail	0.079 avg rt	/	Cumulative: 0.104 avg rt, 0% failures
+[2021-01-11 05:29:58,669 INFO Engine.console] Current: 10 vu	25 succ	0 fail	0.112 avg rt	/	Cumulative: 0.105 avg rt, 0% failures
+[2021-01-11 05:29:59,743 INFO Engine.console] Current: 11 vu	25 succ	0 fail	0.108 avg rt	/	Cumulative: 0.105 avg rt, 0% failures
+[2021-01-11 05:30:00,603 INFO Engine.console] Current: 11 vu	28 succ	0 fail	0.101 avg rt	/	Cumulative: 0.105 avg rt, 0% failures
+[2021-01-11 05:30:01,619 INFO Engine.console] Current: 11 vu	30 succ	0 fail	0.060 avg rt	/	Cumulative: 0.102 avg rt, 0% failures
+[2021-01-11 05:30:02,757 INFO Engine.console] Current: 12 vu	28 succ	0 fail	0.105 avg rt	/	Cumulative: 0.102 avg rt, 0% failures
+[2021-01-11 05:30:03,653 INFO Engine.console] Current: 12 vu	30 succ	0 fail	0.099 avg rt	/	Cumulative: 0.102 avg rt, 0% failures
+[2021-01-11 05:30:04,728 INFO Engine.console] Current: 12 vu	32 succ	0 fail	0.082 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:05,759 INFO Engine.console] Current: 13 vu	33 succ	0 fail	0.088 avg rt	/	Cumulative: 0.100 avg rt, 0% failures
+[2021-01-11 05:30:06,623 INFO Engine.console] Current: 13 vu	33 succ	0 fail	0.116 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:07,752 INFO Engine.console] Current: 13 vu	27 succ	0 fail	0.120 avg rt	/	Cumulative: 0.102 avg rt, 0% failures
+[2021-01-11 05:30:08,637 INFO Engine.console] Current: 14 vu	38 succ	0 fail	0.082 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:09,758 INFO Engine.console] Current: 14 vu	37 succ	0 fail	0.064 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:10,611 INFO Engine.console] Current: 14 vu	34 succ	0 fail	0.117 avg rt	/	Cumulative: 0.100 avg rt, 0% failures
+[2021-01-11 05:30:11,668 INFO Engine.console] Current: 15 vu	32 succ	0 fail	0.155 avg rt	/	Cumulative: 0.102 avg rt, 0% failures
+[2021-01-11 05:30:12,665 INFO Engine.console] Current: 15 vu	35 succ	0 fail	0.110 avg rt	/	Cumulative: 0.102 avg rt, 0% failures
+[2021-01-11 05:30:13,721 INFO Engine.console] Current: 15 vu	40 succ	0 fail	0.066 avg rt	/	Cumulative: 0.100 avg rt, 0% failures
+[2021-01-11 05:30:14,762 INFO Engine.console] Current: 16 vu	42 succ	0 fail	0.103 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:15,716 INFO Engine.console] Current: 16 vu	36 succ	0 fail	0.113 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:16,843 INFO Engine.console] Current: 16 vu	40 succ	0 fail	0.089 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:17,736 INFO Engine.console] Current: 17 vu	46 succ	0 fail	0.062 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:18,733 INFO Engine.console] Current: 17 vu	45 succ	0 fail	0.059 avg rt	/	Cumulative: 0.097 avg rt, 0% failures
+[2021-01-11 05:30:19,658 INFO Engine.console] Current: 17 vu	39 succ	0 fail	0.151 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:20,851 INFO Engine.console] Current: 18 vu	43 succ	0 fail	0.110 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:21,683 INFO Engine.console] Current: 18 vu	46 succ	0 fail	0.073 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:22,843 INFO Engine.console] Current: 18 vu	42 succ	0 fail	0.119 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:23,651 INFO Engine.console] Current: 19 vu	46 succ	0 fail	0.109 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:24,748 INFO Engine.console] Current: 19 vu	48 succ	0 fail	0.100 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:25,649 INFO Engine.console] Current: 19 vu	51 succ	0 fail	0.069 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:26,623 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.077 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:27,679 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.115 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:28,723 INFO Engine.console] Current: 20 vu	41 succ	0 fail	0.105 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:29,639 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.113 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:30,721 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.094 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:31,620 INFO Engine.console] Current: 20 vu	44 succ	0 fail	0.170 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:32,635 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.117 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:33,604 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.097 avg rt	/	Cumulative: 0.101 avg rt, 0% failures
+[2021-01-11 05:30:34,624 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.061 avg rt	/	Cumulative: 0.100 avg rt, 0% failures
+[2021-01-11 05:30:35,631 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.117 avg rt	/	Cumulative: 0.100 avg rt, 0% failures
+[2021-01-11 05:30:36,613 INFO Engine.console] Current: 20 vu	46 succ	0 fail	0.076 avg rt	/	Cumulative: 0.100 avg rt, 0% failures
+[2021-01-11 05:30:37,711 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.097 avg rt	/	Cumulative: 0.100 avg rt, 0% failures
+[2021-01-11 05:30:38,614 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.070 avg rt	/	Cumulative: 0.099 avg rt, 0% failures
+[2021-01-11 05:30:39,658 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.075 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:40,612 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.079 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:41,642 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.098 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:42,611 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.090 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:43,641 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.097 avg rt	/	Cumulative: 0.098 avg rt, 0% failures
+[2021-01-11 05:30:44,618 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.069 avg rt	/	Cumulative: 0.097 avg rt, 0% failures
+[2021-01-11 05:30:45,651 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.079 avg rt	/	Cumulative: 0.097 avg rt, 0% failures
+[2021-01-11 05:30:46,630 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.089 avg rt	/	Cumulative: 0.096 avg rt, 0% failures
+[2021-01-11 05:30:47,635 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.068 avg rt	/	Cumulative: 0.096 avg rt, 0% failures
+[2021-01-11 05:30:48,613 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.077 avg rt	/	Cumulative: 0.095 avg rt, 0% failures
+[2021-01-11 05:30:49,631 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.068 avg rt	/	Cumulative: 0.095 avg rt, 0% failures
+[2021-01-11 05:30:50,653 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.083 avg rt	/	Cumulative: 0.095 avg rt, 0% failures
+[2021-01-11 05:30:51,690 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.106 avg rt	/	Cumulative: 0.095 avg rt, 0% failures
+[2021-01-11 05:30:52,638 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.084 avg rt	/	Cumulative: 0.095 avg rt, 0% failures
+[2021-01-11 05:30:53,658 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.087 avg rt	/	Cumulative: 0.094 avg rt, 0% failures
+[2021-01-11 05:30:54,625 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.052 avg rt	/	Cumulative: 0.094 avg rt, 0% failures
+[2021-01-11 05:30:55,645 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.072 avg rt	/	Cumulative: 0.093 avg rt, 0% failures
+[2021-01-11 05:30:56,623 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.078 avg rt	/	Cumulative: 0.093 avg rt, 0% failures
+[2021-01-11 05:30:57,644 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.084 avg rt	/	Cumulative: 0.093 avg rt, 0% failures
+[2021-01-11 05:30:58,628 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.056 avg rt	/	Cumulative: 0.092 avg rt, 0% failures
+[2021-01-11 05:30:59,647 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.065 avg rt	/	Cumulative: 0.092 avg rt, 0% failures
+[2021-01-11 05:31:00,623 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.080 avg rt	/	Cumulative: 0.091 avg rt, 0% failures
+[2021-01-11 05:31:01,658 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.087 avg rt	/	Cumulative: 0.091 avg rt, 0% failures
+[2021-01-11 05:31:02,634 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.069 avg rt	/	Cumulative: 0.091 avg rt, 0% failures
+[2021-01-11 05:31:03,661 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.059 avg rt	/	Cumulative: 0.090 avg rt, 0% failures
+[2021-01-11 05:31:04,640 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.079 avg rt	/	Cumulative: 0.090 avg rt, 0% failures
+[2021-01-11 05:31:05,661 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.092 avg rt	/	Cumulative: 0.090 avg rt, 0% failures
+[2021-01-11 05:31:06,668 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.089 avg rt	/	Cumulative: 0.090 avg rt, 0% failures
+[2021-01-11 05:31:07,647 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.074 avg rt	/	Cumulative: 0.090 avg rt, 0% failures
+[2021-01-11 05:31:08,650 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.088 avg rt	/	Cumulative: 0.090 avg rt, 0% failures
+[2021-01-11 05:31:09,658 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.065 avg rt	/	Cumulative: 0.090 avg rt, 0% failures
+[2021-01-11 05:31:10,637 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.080 avg rt	/	Cumulative: 0.090 avg rt, 0% failures
+[2021-01-11 05:31:11,676 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.074 avg rt	/	Cumulative: 0.089 avg rt, 0% failures
+[2021-01-11 05:31:12,639 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.076 avg rt	/	Cumulative: 0.089 avg rt, 0% failures
+[2021-01-11 05:31:13,669 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.078 avg rt	/	Cumulative: 0.089 avg rt, 0% failures
+[2021-01-11 05:31:14,643 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.059 avg rt	/	Cumulative: 0.089 avg rt, 0% failures
+[2021-01-11 05:31:15,663 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.075 avg rt	/	Cumulative: 0.088 avg rt, 0% failures
+[2021-01-11 05:31:16,678 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.079 avg rt	/	Cumulative: 0.088 avg rt, 0% failures
+[2021-01-11 05:31:17,712 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.066 avg rt	/	Cumulative: 0.088 avg rt, 0% failures
+[2021-01-11 05:31:18,661 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.082 avg rt	/	Cumulative: 0.088 avg rt, 0% failures
+[2021-01-11 05:31:19,691 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.060 avg rt	/	Cumulative: 0.088 avg rt, 0% failures
+[2021-01-11 05:31:20,703 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.091 avg rt	/	Cumulative: 0.088 avg rt, 0% failures
+[2021-01-11 05:31:21,662 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.074 avg rt	/	Cumulative: 0.087 avg rt, 0% failures
+[2021-01-11 05:31:22,675 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.076 avg rt	/	Cumulative: 0.087 avg rt, 0% failures
+[2021-01-11 05:31:23,719 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.075 avg rt	/	Cumulative: 0.087 avg rt, 0% failures
+[2021-01-11 05:31:24,692 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.081 avg rt	/	Cumulative: 0.087 avg rt, 0% failures
+[2021-01-11 05:31:25,667 INFO Engine.console] Current: 20 vu	46 succ	0 fail	0.100 avg rt	/	Cumulative: 0.087 avg rt, 0% failures
+[2021-01-11 05:31:26,735 INFO Engine.console] Current: 20 vu	59 succ	0 fail	0.072 avg rt	/	Cumulative: 0.087 avg rt, 0% failures
+[2021-01-11 05:31:27,669 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.075 avg rt	/	Cumulative: 0.087 avg rt, 0% failures
+[2021-01-11 05:31:28,672 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.058 avg rt	/	Cumulative: 0.087 avg rt, 0% failures
+[2021-01-11 05:31:29,670 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.078 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:30,677 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.085 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:31,658 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.093 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:32,678 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.058 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:33,658 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.068 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:34,680 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.078 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:35,696 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.114 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:36,665 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.069 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:37,697 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.074 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:38,668 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.075 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:39,686 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.076 avg rt	/	Cumulative: 0.086 avg rt, 0% failures
+[2021-01-11 05:31:40,696 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.064 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:41,669 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.074 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:42,765 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.086 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:43,682 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.080 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:44,680 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.059 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:45,701 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.066 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:46,713 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.092 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:47,691 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.087 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:48,687 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.056 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:49,697 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.065 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:31:50,702 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.093 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:51,731 INFO Engine.console] Current: 20 vu	47 succ	0 fail	0.118 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:52,677 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.066 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:53,698 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.065 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:31:54,728 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.079 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:31:55,695 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.119 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:56,731 INFO Engine.console] Current: 20 vu	45 succ	0 fail	0.154 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:57,786 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.057 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:58,688 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.066 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:31:59,783 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.083 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:32:00,688 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.068 avg rt	/	Cumulative: 0.085 avg rt, 0% failures
+[2021-01-11 05:32:01,697 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.061 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:32:02,682 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.050 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:32:03,708 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.074 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:32:04,694 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.079 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:32:05,710 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.064 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:32:06,709 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.064 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:32:07,690 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.063 avg rt	/	Cumulative: 0.084 avg rt, 0% failures
+[2021-01-11 05:32:08,722 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.078 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:09,700 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.069 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:10,727 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.069 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:11,720 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.081 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:12,699 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.076 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:13,743 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.070 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:14,701 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.072 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:15,773 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.066 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:16,787 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.142 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:17,712 INFO Engine.console] Current: 20 vu	45 succ	0 fail	0.120 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:18,764 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.059 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:19,791 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.055 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:20,740 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.068 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:21,722 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.087 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:22,728 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.075 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:23,731 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.051 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:24,710 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.073 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:25,741 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.100 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:26,747 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.099 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:27,716 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.068 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:28,724 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.058 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:29,752 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.080 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:30,775 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.080 avg rt	/	Cumulative: 0.083 avg rt, 0% failures
+[2021-01-11 05:32:31,730 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.067 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:32,755 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.078 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:33,723 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.083 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:34,738 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.077 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:35,715 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.057 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:36,742 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.105 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:37,747 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.087 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:38,760 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.065 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:39,760 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.059 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:40,725 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.072 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:41,744 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.076 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:42,727 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.082 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:43,749 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.059 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:44,752 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.077 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:45,730 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.078 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:46,754 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.074 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:47,736 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.075 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:48,758 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.059 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:49,730 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.089 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:50,753 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.066 avg rt	/	Cumulative: 0.082 avg rt, 0% failures
+[2021-01-11 05:32:51,756 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.065 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:32:52,761 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.062 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:32:53,747 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.083 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:32:54,750 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.087 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:32:55,753 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.066 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:32:56,760 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.067 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:32:57,742 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.081 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:32:58,753 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.080 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:32:59,756 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.074 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:00,763 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.059 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:01,780 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.080 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:02,786 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.085 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:03,748 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.080 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:04,763 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.053 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:05,779 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.047 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:06,745 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.078 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:07,767 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.075 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:08,746 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.059 avg rt	/	Cumulative: 0.081 avg rt, 0% failures
+[2021-01-11 05:33:09,772 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.053 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:10,782 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.072 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:11,836 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.080 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:12,762 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.070 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:13,799 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.065 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:14,752 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.059 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:15,768 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.083 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:16,782 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.075 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:17,766 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.065 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:18,793 INFO Engine.console] Current: 20 vu	59 succ	0 fail	0.068 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:19,763 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.083 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:20,784 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.074 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:21,764 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.064 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:22,784 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.066 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:23,759 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.077 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:24,782 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.098 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:25,784 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.051 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:26,767 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.067 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:27,790 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.070 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:28,769 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.068 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:29,800 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.088 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:30,775 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.082 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:31,791 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.067 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:32,800 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.091 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:33:33,782 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.055 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:34,801 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.062 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:35,813 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.075 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:36,786 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.092 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:37,818 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.089 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:38,776 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.049 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:39,821 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.077 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:40,799 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.094 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:41,796 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.074 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:42,778 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.042 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:43,806 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.070 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:44,790 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.094 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:45,811 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.084 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:46,786 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.055 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:47,808 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.057 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:48,834 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.082 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:49,791 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.096 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:50,820 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.061 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:51,803 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.068 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:52,827 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.096 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:53,806 INFO Engine.console] Current: 20 vu	47 succ	0 fail	0.149 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:54,801 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.066 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:55,815 INFO Engine.console] Current: 20 vu	60 succ	0 fail	0.048 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:56,828 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.123 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:57,801 INFO Engine.console] Current: 20 vu	43 succ	0 fail	0.138 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:58,845 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.090 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:33:59,803 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.069 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:00,818 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.079 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:01,823 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.110 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:02,798 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.073 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:03,822 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.089 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:04,800 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.061 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:05,822 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.109 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:06,821 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.085 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:07,826 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.054 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:08,808 INFO Engine.console] Current: 20 vu	59 succ	0 fail	0.072 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:09,815 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.089 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:10,850 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.067 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:11,815 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.052 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:12,834 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.079 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:13,819 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.099 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:14,824 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.084 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:15,828 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.061 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:16,825 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.060 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:17,850 INFO Engine.console] Current: 20 vu	46 succ	0 fail	0.155 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:18,828 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.092 avg rt	/	Cumulative: 0.080 avg rt, 0% failures
+[2021-01-11 05:34:19,834 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.053 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:20,817 INFO Engine.console] Current: 20 vu	59 succ	0 fail	0.059 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:21,835 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.089 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:22,840 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.091 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:23,816 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.048 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:24,828 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.048 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:25,844 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.073 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:26,845 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.099 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:27,847 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.050 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:28,822 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.053 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:29,841 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.068 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:30,854 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.095 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:31,851 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.073 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:32,829 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.054 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:33,859 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.055 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:34,839 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.104 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:35,863 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.090 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:36,864 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.060 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:37,842 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.057 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:38,875 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.098 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:39,860 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.100 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:40,841 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.043 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:41,851 INFO Engine.console] Current: 20 vu	60 succ	0 fail	0.052 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:42,838 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.088 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:43,876 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.108 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:44,854 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.064 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:45,849 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.049 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:46,865 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.081 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:47,884 INFO Engine.console] Current: 20 vu	46 succ	0 fail	0.131 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:48,848 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.060 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:49,861 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.044 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:50,876 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.076 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:51,840 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.101 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:52,938 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.087 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:53,846 INFO Engine.console] Current: 20 vu	60 succ	0 fail	0.035 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:54,867 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.045 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:34:55,880 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.146 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:56,891 INFO Engine.console] Current: 20 vu	44 succ	0 fail	0.120 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:57,861 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.073 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:58,873 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.043 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:34:59,982 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.084 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:00,879 INFO Engine.console] Current: 20 vu	46 succ	0 fail	0.137 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:01,872 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.057 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:02,883 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.094 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:03,866 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.104 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:04,890 INFO Engine.console] Current: 20 vu	46 succ	0 fail	0.129 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:05,861 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.065 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:06,878 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.057 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:07,883 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.047 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:08,900 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.121 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:09,865 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.070 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:10,876 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.052 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:11,889 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.076 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:12,865 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.110 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:13,883 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.087 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:14,920 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.050 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:15,968 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.063 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:16,875 INFO Engine.console] Current: 20 vu	54 succ	0 fail	0.080 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:17,893 INFO Engine.console] Current: 20 vu	45 succ	0 fail	0.127 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:18,899 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.073 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:19,877 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.066 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:20,891 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.078 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:21,901 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.103 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:22,875 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.057 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:23,891 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.048 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:24,904 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.076 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:25,887 INFO Engine.console] Current: 20 vu	47 succ	0 fail	0.102 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:26,890 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.067 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:27,910 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.064 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:28,882 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.061 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:29,895 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.092 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:30,914 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.099 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:31,886 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.043 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:32,905 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.077 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:33,916 INFO Engine.console] Current: 20 vu	48 succ	0 fail	0.116 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:34,893 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.091 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:35,896 INFO Engine.console] Current: 20 vu	59 succ	0 fail	0.039 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:36,897 INFO Engine.console] Current: 20 vu	60 succ	0 fail	0.063 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:37,914 INFO Engine.console] Current: 20 vu	47 succ	0 fail	0.128 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:38,887 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.094 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:39,916 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.057 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:40,887 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.044 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:41,912 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.089 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:42,919 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.110 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:43,900 INFO Engine.console] Current: 20 vu	53 succ	0 fail	0.057 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:44,929 INFO Engine.console] Current: 20 vu	60 succ	0 fail	0.054 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:45,909 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.085 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:46,949 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.098 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:47,901 INFO Engine.console] Current: 20 vu	52 succ	0 fail	0.071 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:48,914 INFO Engine.console] Current: 20 vu	60 succ	0 fail	0.036 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:49,925 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.074 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:50,907 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.122 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:51,914 INFO Engine.console] Current: 20 vu	50 succ	0 fail	0.071 avg rt	/	Cumulative: 0.079 avg rt, 0% failures
+[2021-01-11 05:35:52,920 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.037 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:53,901 INFO Engine.console] Current: 20 vu	58 succ	0 fail	0.048 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:54,938 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.107 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:55,912 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.091 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:56,931 INFO Engine.console] Current: 20 vu	56 succ	0 fail	0.060 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:57,907 INFO Engine.console] Current: 20 vu	57 succ	0 fail	0.045 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:58,936 INFO Engine.console] Current: 20 vu	55 succ	0 fail	0.083 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:35:59,921 INFO Engine.console] Current: 20 vu	49 succ	0 fail	0.106 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
+[2021-01-11 05:36:00,933 INFO Engine.console] Current: 20 vu	51 succ	0 fail	0.068 avg rt	/	Cumulative: 0.078 avg rt, 0% failures
