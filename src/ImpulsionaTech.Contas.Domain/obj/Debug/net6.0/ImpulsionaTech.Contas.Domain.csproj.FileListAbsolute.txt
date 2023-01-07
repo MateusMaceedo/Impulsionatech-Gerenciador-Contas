@@ -1,0 +1,5 @@
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain/obj/Debug/net6.0/ImpulsionaTech.Contas.Domain.csproj.AssemblyReference.cache
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain/obj/Debug/net6.0/ImpulsionaTech.Contas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain/obj/Debug/net6.0/ImpulsionaTech.Contas.Domain.AssemblyInfoInputs.cache
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain/obj/Debug/net6.0/ImpulsionaTech.Contas.Domain.AssemblyInfo.cs
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain/obj/Debug/net6.0/ImpulsionaTech.Contas.Domain.csproj.CoreCompileInputs.cache

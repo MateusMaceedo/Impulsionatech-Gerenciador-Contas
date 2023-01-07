@@ -1,0 +1,12 @@
+idsproduto;Produtos
+9798530;Pneu Continental Aro 15
+I2542866;Relógio Feminino Digital Casio B640WC5ADF
+1509241529;Capa Smartphone Pitaka MagEZ Preto/Cinza
+1507851951;Óculos de Sol Emporio Armani
+1508266584;Chupeta De Silicone Soft
+1508895124;Boia Inflável Rapid Rider X2
+1505967681;Jogo Macacos Loucos Minions 2 Mattel
+1507785671;Rodo de Madeira Duplo E.V.A 60cm
+15090717;Vassoura Magica 3 X 1 Azul
+1508741110;Escova de Cabelo Lanossi Raquete Quadrada Colori
+

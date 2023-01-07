@@ -1,0 +1,11 @@
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/bin/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.deps.json
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/bin/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.dll
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/bin/Debug/net6.0/ref/ImpulsionaTech.Contas.Infra.IoC.dll
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/bin/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.pdb
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/obj/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/obj/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.AssemblyInfoInputs.cache
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/obj/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.AssemblyInfo.cs
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/obj/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.csproj.CoreCompileInputs.cache
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/obj/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.dll
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/obj/Debug/net6.0/ref/ImpulsionaTech.Contas.Infra.IoC.dll
+/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/obj/Debug/net6.0/ImpulsionaTech.Contas.Infra.IoC.pdb

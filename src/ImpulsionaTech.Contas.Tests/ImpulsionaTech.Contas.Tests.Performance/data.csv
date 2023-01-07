@@ -1,0 +1,4 @@
+labelId,labelName,samples,avgResponseTime(ms),avgThroughput,90line(ms),95line(ms),99line(ms),minResponseTime(ms),maxResponseTime(ms),avgBytes(KBytes/s),errorsRate,hasLabelPassedThresholds,concurrency
+b5c7aed7cd2a308523e7d2847b7815909e864b2fd9c4ea88b00d35adb2ecdfd7,ALL,18873,366.31,36.65,466,568,1860,183,10079,168.6,0,,20
+3a78695388b38b5cceefaf6796b0137877514593543b91af2752d5a17e3d736c,Home,9440,381.84,18.33,479,583,1865,204,9959,61.7,0,,20
+5ae6f30c297b461db7ada3477e599dffe1fb2361be3d5a19319e06d637155614,Reserve,9433,350.81,18.35,446,548,1813,183,10079,107.1,0,,20
