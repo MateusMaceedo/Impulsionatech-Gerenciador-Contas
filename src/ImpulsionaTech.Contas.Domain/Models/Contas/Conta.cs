@@ -1,13 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using ImpulsionaTech.Contas.Domain.Models.Clientes;
-using System.Text.RegularExpressions;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Collections.Generic;
 using ImpulsionaTech.Contas.Domain.Base;
+using ImpulsionaTech.Contas.Domain.Models.TiposContas;
 
 namespace ImpulsionaTech.Contas.Domain.Models.Contas
 {
@@ -19,11 +14,11 @@ namespace ImpulsionaTech.Contas.Domain.Models.Contas
 
     [Required]
     public int TipoContaId { get; set; }
-    public TipoConta TipoConta { get; set; }
+    public TipoConta? TipoConta { get; set; }
     public decimal Saldo { get; set; }
 
     [Required]
     public int ClienteId { get; set; }
-    public Cliente Cliente { get; set; }
+    public Cliente? Cliente { get; set; }
   }
 }
