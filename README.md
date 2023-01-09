@@ -9,7 +9,7 @@ Comandos dotnet para criar o projeto:
 Seguir a documentação: https://www.macoratti.net/19/10/net_climp1.htm
 
 ## Give a Star! :star:
-If you liked the project or if Equinox helped you, please give a star ;)
+If you liked the project or if contas helped you, please give a star ;)
 
 ## How to use:
 - You will need the latest Visual Studio 2022 and the latest .NET Core SDK.

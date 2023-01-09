@@ -1,13 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ImpulsionaTech.Contas.Domain.Models.Clientes;
-using System.Text.RegularExpressions;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Collections.Generic;
-using ImpulsionaTech.Contas.Domain.Base;
+using ImpulsionaTech.Contas.Domain.Shared.Enum;
 
 namespace ImpulsionaTech.Contas.Domain.Models.Movimentacoes
 {
@@ -29,7 +22,7 @@ namespace ImpulsionaTech.Contas.Domain.Models.Movimentacoes
     public TipoMovimentacao TipoMovimentacao { get; set; }
     [Required]
     public decimal Valor { get; set; }
-
+    public Status Status { get; private set; }
 
     public void ReverteDadosMovimentacao()
     {
