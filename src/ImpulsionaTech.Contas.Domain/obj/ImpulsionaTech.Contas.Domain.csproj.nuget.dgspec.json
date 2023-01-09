@@ -38,6 +38,26 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "System.ComponentModel": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Security.Claims": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "System.Text.RegularExpressions": {
               "target": "Package",
               "version": "[4.3.1, )"
