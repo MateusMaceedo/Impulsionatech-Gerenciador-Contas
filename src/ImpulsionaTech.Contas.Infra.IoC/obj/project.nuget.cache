@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fvlIn6B8xW83FXvRhmXgIBGuicpWhq+98wCZ+Pi57FIhKPsJnL0my+h7nyGfq9JS2MiOgt6AECNjApv9Q42arQ==",
+  "dgSpecHash": "LwreU6CWmd+ASFgK5AvsmC6kzZgmECNiaXlAWfj32d1dZnLxYRpVqSZjxf8gnxM3iwKe9/tfhiAW5w/EQV/NKQ==",
   "success": true,
   "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.IoC/ImpulsionaTech.Contas.Infra.IoC.csproj",
   "expectedPackageFiles": [],
