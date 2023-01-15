@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yKvsyA7F+HSWS/C8iBA58V/602tcppengf2ckgfYG2xGg3LEmdcry/ZkFTw4BKizyi5w7QIBh+wS8SYe4YiZng==",
+  "dgSpecHash": "DdYcZ4ecan7H9XsQpd8SYhC8WjjkWPQiFMb+Ep6zMBs+kslnfLTvBi+zUYlSM5RnBY0oxXUQorBbjmaAgKEfhQ==",
   "success": true,
   "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.WebApi/ImpulsionaTech.Contas.WebApi.csproj",
   "expectedPackageFiles": [

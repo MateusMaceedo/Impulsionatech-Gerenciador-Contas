@@ -1,5 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\ImpulsionaTech.Contas.Application\ImpulsionaTech.Contas.Application.csproj" />
+    <ProjectReference Include="..\ImpulsionaTech.Contas.Domain\ImpulsionaTech.Contas.Domain.csproj" />
+    <ProjectReference Include="..\ImpulsionaTech.Contas.Infra.Identity\ImpulsionaTech.Contas.Infra.Identity.csproj" />
+    <ProjectReference Include="..\ImpulsionaTech.Contas.Infra.Data\ImpulsionaTech.Contas.Infra.Data.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

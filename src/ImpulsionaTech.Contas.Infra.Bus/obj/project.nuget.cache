@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "a3hZddPE5baWAi3wrwRbLiKuXyehyTWVCAuMDYzG3Zz4kzAAtLrSwjzbyPGuUseSbfynNBZgbYafN7uBoRJv/g==",
+  "dgSpecHash": "lmLtWsFgMoHG3+rHCgRCdLLnEEVgeYikKISrUj3YoCmt9Fuq75D+Pm7lyUq7+90EIp0HDaCKwfA7V3F5j3TrXw==",
   "success": true,
   "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Bus/ImpulsionaTech.Contas.Infra.Bus.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/mateus/.nuget/packages/fluentvalidation/10.4.0/fluentvalidation.10.4.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/home/mateus/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/home/mateus/.nuget/packages/netdevpack/7.0.1/netdevpack.7.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
