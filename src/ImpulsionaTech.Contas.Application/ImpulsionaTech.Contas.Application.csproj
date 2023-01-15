@@ -8,6 +8,7 @@
 
   <ItemGroup>
 		<PackageReference Include="NetDevPack" Version="7.0.1" />
+    <PackageReference Include="AutoMapper" Version="11.0.1"/>
 	</ItemGroup>
 
   <PropertyGroup>

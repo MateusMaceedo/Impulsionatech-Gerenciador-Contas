@@ -50,6 +50,19 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "NetDevPack/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.4.0",
+          "mediatr": "10.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/NetDevPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/NetDevPack.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -227,6 +240,32 @@
         "compile": {
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
+      },
+      "ImpulsionaTech.Contas.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NetDevPack": "7.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ImpulsionaTech.Contas.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImpulsionaTech.Contas.Domain.Core.dll": {}
+        }
+      },
+      "ImpulsionaTech.Contas.Infra.Bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ImpulsionaTech.Contas.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ImpulsionaTech.Contas.Infra.Bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ImpulsionaTech.Contas.Infra.Bus.dll": {}
+        }
       }
     }
   },
@@ -310,6 +349,19 @@
         "microsoft.netcore.targets.1.1.3.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "NetDevPack/7.0.1": {
+      "sha512": "hjCNeVR9pa9GWAPsVERLZzII1hUjUv6ypn7GCh69Od/5EzFHB4o+kxAkOyNQFC3guaLyWgXskXuQZ0mAJgZ9YQ==",
+      "type": "package",
+      "path": "netdevpack/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "IconNuget.png",
+        "lib/netstandard2.1/NetDevPack.dll",
+        "netdevpack.7.0.1.nupkg.sha512",
+        "netdevpack.nuspec"
       ]
     },
     "System.Collections/4.3.0": {
@@ -1363,11 +1415,23 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "ImpulsionaTech.Contas.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../ImpulsionaTech.Contas.Domain.Core/ImpulsionaTech.Contas.Domain.Core.csproj",
+      "msbuildProject": "../ImpulsionaTech.Contas.Domain.Core/ImpulsionaTech.Contas.Domain.Core.csproj"
+    },
+    "ImpulsionaTech.Contas.Infra.Bus/1.0.0": {
+      "type": "project",
+      "path": "../ImpulsionaTech.Contas.Infra.Bus/ImpulsionaTech.Contas.Infra.Bus.csproj",
+      "msbuildProject": "../ImpulsionaTech.Contas.Infra.Bus/ImpulsionaTech.Contas.Infra.Bus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "FluentValidation >= 10.4.0",
+      "ImpulsionaTech.Contas.Domain.Core >= 1.0.0",
+      "ImpulsionaTech.Contas.Infra.Bus >= 1.0.0",
       "MediatR >= 11.1.0",
       "System.ComponentModel >= 4.3.0",
       "System.ComponentModel.Annotations >= 5.0.0",
@@ -1399,7 +1463,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain.Core/ImpulsionaTech.Contas.Domain.Core.csproj": {
+              "projectPath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain.Core/ImpulsionaTech.Contas.Domain.Core.csproj"
+            },
+            "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Bus/ImpulsionaTech.Contas.Infra.Bus.csproj": {
+              "projectPath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Bus/ImpulsionaTech.Contas.Infra.Bus.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

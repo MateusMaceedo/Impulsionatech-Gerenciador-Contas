@@ -7,9 +7,9 @@ namespace ImpulsionaTech.Contas.Domain.Commands.Contas
   {
     public int ContaId { get; set; }
     public int TipoContaId { get; set; }
-    public TiposContasCommand? TipoConta { get; set; }
+    public TiposContasCommand TipoConta { get; set; }
     public decimal Saldo { get; set; }
     public int ClienteId { get; set; }
-    public ClientesCommand? Cliente { get; set; }
+    public ClientesCommand Cliente { get; set; }
   }
 }

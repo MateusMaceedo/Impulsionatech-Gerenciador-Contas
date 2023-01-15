@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vySZPRvwGeMav5xJpaUKJ8twNU8LA7NErzB4SeAe33WFeaY23J6LIu5NjFF7WqjDYQ7YFETGA/LlL7SH3p/lRQ==",
+  "dgSpecHash": "/GjaxmDqxy73v2DOLWr7ZeA7xJQGjWOqFVTgu47lH7Zd0h7pucqJRsOo1d7vOwFw2QChz2PlovwdkiAIw0pwlg==",
   "success": true,
   "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Domain/ImpulsionaTech.Contas.Domain.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/home/mateus/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.netcore.platforms/1.1.1/microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.netcore.targets/1.1.3/microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "/home/mateus/.nuget/packages/netdevpack/7.0.1/netdevpack.7.0.1.nupkg.sha512",
     "/home/mateus/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",

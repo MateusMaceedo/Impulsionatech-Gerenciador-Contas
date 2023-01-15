@@ -12,8 +12,8 @@ namespace ImpulsionaTech.Contas.Domain.Models.TiposContas
     public int TipoContaId { get; set; }
     [Required]
     [StringLength(50, ErrorMessage = "Descrição deve apresentar no máximo 50 caracteres")]
-    public string? Descricao { get; set; }
+    public string Descricao { get; set; }
 
-    public Conta? Conta { get; set; }
+    public Conta Conta { get; set; }
   }
 }
