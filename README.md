@@ -52,7 +52,7 @@ Para saber mais sobre como configurar seu ambiente visite o [Microsoft .NET Down
    <img src="" alt="multi-contas logo" title="multiContasContainers" align="center" />
 </a>
 
- 🚨 *Clique aqui para ler sobre as decisões técncias do projeto*
+ 🚨 *Clique na imagem acima para ver ler sobre as decisões técncias do projeto*
 
 ## Fluxo AWS
 >Nota: Esse foi o desenho inicial da solução, incialmente foi construido somente com dois MS, dividindo a responsabilidade entre camadas, aos poucos estou realizando um refactor no projeto, incluindo novas praticas e formas diferente, de se trabalhar com desenvolvimento de DevOps em projetos reais.
