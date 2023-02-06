@@ -1,12 +1,16 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using ImpulsionaTech.Contas.Infra.IoC;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace ImpulsionaTech.Contas.WebApi.Configurations
+namespace Equinox.Services.Api.Configurations
 {
-    public class DependencyInjectionConfig
+    public static class DependencyInjectionConfig
     {
-        
+        public static void AddDependencyInjectionConfiguration(this IServiceCollection services)
+        {
+            if (services == null) throw new ArgumentNullException(nameof(services));
+
+            NativeInjectorBootStrapper.RegisterServices(services);
+        }
     }
 }
