@@ -48,6 +48,11 @@ Para saber mais sobre como configurar seu ambiente visite o [Microsoft .NET Down
 - Unit of Work
 - Repository
 
+<a href="https://github.com/users/MateusMaceedo/projects/1/views/1">
+</a>
+
+ 🚨 *Clique aqui para ler sobre as decisões técncias do projeto*
+
 ## Fluxo AWS
 >Nota: Esse foi o desenho inicial da solução, incialmente foi construido somente com dois MS, dividindo a responsabilidade entre camadas, aos poucos estou realizando um refactor no projeto, incluindo novas praticas e formas diferente, de se trabalhar com desenvolvimento de DevOps em projetos reais.
 <h1 align="center">
