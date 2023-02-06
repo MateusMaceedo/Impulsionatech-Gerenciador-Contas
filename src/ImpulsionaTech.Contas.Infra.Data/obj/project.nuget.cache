@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ytje8obFe/zgeJDQ+erSHwRQoEqqk/uXYxhimsUwZ3QK+tZ59IYlr0YV7kKEg5kk7CkcrHfecAJftG//GL/m9Q==",
+  "dgSpecHash": "TOHdyrhiniEuwSdYGxcDoK7Cri8iy/aSSgiSBYRWAubv6Tj2UO6gbB0CIhcCfDwox+Gx4vuR/ntKr0XcS8v8iQ==",
   "success": true,
   "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Infra.Data/ImpulsionaTech.Contas.Infra.Data.csproj",
   "expectedPackageFiles": [
     "/home/mateus/.nuget/packages/fluentvalidation/10.4.0/fluentvalidation.10.4.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/mateus/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.1/microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
@@ -18,6 +19,7 @@
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore/6.0.3/microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.3/microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.3/microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
+    "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.design/6.0.3/microsoft.entityframeworkcore.design.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.3/microsoft.entityframeworkcore.relational.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.3/microsoft.entityframeworkcore.sqlserver.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

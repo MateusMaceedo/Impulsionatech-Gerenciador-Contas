@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using NetDevPack.Messaging;
 
 namespace ImpulsionaTech.Contas.Domain.Core.Events
 {
-    public interface IEventStore
-    {
-
-    }
+  public interface IEventStore
+  {
+    void Save<T>(T theEvent) where T : Event;
+  }
 }

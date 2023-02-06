@@ -1,12 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Equinox.Infra.CrossCutting.Bus;
+using Microsoft.Extensions.DependencyInjection;
+using NetDevPack.Mediator;
 
 namespace ImpulsionaTech.Contas.Infra.IoC
 {
-    public class NativeInjectorBootStrapper
+  public static class NativeInjectorBootStrapper
+  {
+    public static void RegisterServices(IServiceCollection services)
     {
-        
+       // Domain Bus (Mediator)
+       services.AddScoped<IMediatorHandler, InMemoryBus>();
     }
+  }
 }

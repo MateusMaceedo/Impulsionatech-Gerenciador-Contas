@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "atLGG/nB0cAFdwJbYxZ5bQruSfvOVBmwSlsd39AoPjz9q3Inb8oW0Ws1wz3h/PDvPlQeWPInHgh+PUvVi6YSyA==",
+  "dgSpecHash": "vKEJkyL2c55KpVYBdMEVUH0yknRwu7WgHRyBJzMLtWU0KtJdYLuCtILGynZmP/xk0vFdSlK8zwo8kvCOdbkx9A==",
   "success": true,
   "projectFilePath": "/home/mateus/projetos/dotnet/Impulsionatech-Gerenciador-Contas/src/ImpulsionaTech.Contas.Application/ImpulsionaTech.Contas.Application.csproj",
   "expectedPackageFiles": [
     "/home/mateus/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/home/mateus/.nuget/packages/fluentvalidation/10.4.0/fluentvalidation.10.4.0.nupkg.sha512",
+    "/home/mateus/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/mateus/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
     "/home/mateus/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.1/microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",
@@ -19,6 +20,7 @@
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore/6.0.3/microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.3/microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.3/microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
+    "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.design/6.0.3/microsoft.entityframeworkcore.design.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.3/microsoft.entityframeworkcore.relational.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.3/microsoft.entityframeworkcore.sqlserver.6.0.3.nupkg.sha512",
     "/home/mateus/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

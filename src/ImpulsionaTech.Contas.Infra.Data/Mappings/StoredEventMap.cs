@@ -1,12 +1,19 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using ImpulsionaTech.Contas.Domain.Core.Events;
 
-namespace ImpulsionaTech.Contas.Infra.Data.Mappings
+namespace Equinox.Infra.Data.Mappings
 {
-    public class StoredEventMap
+    public class StoredEventMap : IEntityTypeConfiguration<StoredEvent>
     {
-        
+        public void Configure(EntityTypeBuilder<StoredEvent> builder)
+        {
+            builder.Property(c => c.Timestamp)
+                .HasColumnName("CreationDate");
+
+            builder.Property(c => c.MessageType)
+                .HasColumnName("Action")
+                .HasColumnType("varchar(100)");
+        }
     }
 }
