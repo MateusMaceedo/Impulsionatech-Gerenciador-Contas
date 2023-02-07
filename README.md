@@ -57,7 +57,7 @@ Para saber mais sobre como configurar seu ambiente visite o [Microsoft .NET Down
 ## Fluxo AWS
 >Nota: Esse foi o desenho inicial da solução, incialmente foi construido somente com dois MS, dividindo a responsabilidade entre camadas, aos poucos estou realizando um refactor no projeto, incluindo novas praticas e formas diferente, de se trabalhar com desenvolvimento de DevOps em projetos reais.
 <h1 align="center">
-  <img src="https://github.com/MateusMaceedo/Impulsionatech-Gerenciador-Contas/blob/feature/MigracaoDotnet6/img/MultiContas-Cloud-Native-Decision-Log.png?raw=true">
+  <img src="https://github.com/MateusMaceedo/Impulsionatech-Gerenciador-Contas/blob/feature/MigracaoDotnet6/img/Fluxo%20contas%20bancarias.drawio.png?raw=true">
 </h1>
 
 ## Entendendo os serviços e fluxo atual
