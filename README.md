@@ -49,7 +49,7 @@ Para saber mais sobre como configurar seu ambiente visite o [Microsoft .NET Down
 - Repository
 
 <a href="https://github.com/users/MateusMaceedo/projects/1/views/1">
-   <img src="https://github.com/MateusMaceedo/Impulsionatech-Gerenciador-Contas/blob/main/img/MultiContas-Cloud-Native-Decision-Log.png" alt="multi-contas logo" title="multiContasContainers" align="center" />
+   <img src="https://github.com/MateusMaceedo/Impulsionatech-Gerenciador-Contas/blob/feature/MigracaoDotnet6/img/MultiContas-Cloud-Native-Decision-Log.png?raw=true" alt="multi-contas logo" title="multiContasContainers" align="center" />
 </a>
 
  🚨 *Clique na imagem acima para ver ler sobre as decisões técncias do projeto*
