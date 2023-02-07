@@ -2,7 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ImpulsionaTech.Contas.WebApi.Controllers
 {
-  [Route("[controller]")]
+    [ApiController]
+    [Route("api/[controller]")]
     public class TipoContaController : Controller
     {
         private readonly ILogger<TipoContaController> _logger;

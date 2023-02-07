@@ -1,26 +1,26 @@
-What is the Contas?
+O que é o projeto Multi-Contas?
 =====================
-The Contas is a open-source project written in .NET Core
+O Multi-Contas é um projeto de código aberto escrito em .NET Core
 
-The goal of this project is implement the most common used technologies and share with the technical community the best way to develop great applications with .NET
+O objetivo deste projeto é implementar as tecnologias mais utilizadas e compartilhar com a comunidade técnica a melhor forma de desenvolver grandes aplicações com .NET
 
 Comandos dotnet para criar o projeto:
 
 Seguir a documentação: https://www.macoratti.net/19/10/net_climp1.htm
 
-## Give a Star! :star:
-If you liked the project or if contas helped you, please give a star ;)
+## Dê uma estrela! :estrela:
+Se você gostou do projeto ou se o contas te ajudou, dê uma estrela ;)
 
-## How to use:
-- You will need the latest Visual Studio 2022 and the latest .NET Core SDK.
-- ***Please check if you have installed the same runtime version (SDK) described in global.json***
-- The latest SDK and tools can be downloaded from https://dot.net/core.
+## Como usar:
+- Você precisará do Visual Studio 2022 mais recente e do .NET Core SDK mais recente.
+- ***Verifique se você instalou a mesma versão de tempo de execução (SDK) descrita em global.json***
+- O SDK e as ferramentas mais recentes podem ser baixados em https://dot.net/core.
 
-Also you can run the Contas in Visual Studio Code (Windows, Linux or MacOS).
+Além disso, você pode executar o Contas no Visual Studio Code (Windows, Linux ou MacOS).
 
-To know more about how to setup your enviroment visit the [Microsoft .NET Download Guide](https://www.microsoft.com/net/download)
+Para saber mais sobre como configurar seu ambiente visite o [Microsoft .NET Download Guide](https://www.microsoft.com/net/download)
 
-## Technologies implemented:
+## Tecnologias implementadas:
 
 - ASP.NET 6.0
  - ASP.NET MVC Core
@@ -31,13 +31,14 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - AutoMapper
 - FluentValidator
 - MediatR
+- RabbitMQ
 - Swagger UI with JWT support
 - .NET DevPack
 - .NET DevPack.Identity
 
-## Architecture:
+## Arquitetura:
 
-- Full architecture with responsibility separation concerns, SOLID and Clean Code
+- Arquitetura completa com preocupações de separação de responsabilidade, SOLID e Clean Code
 - Domain Driven Design (Layers and Domain Model Pattern)
 - Domain Events
 - Domain Notification
@@ -47,27 +48,37 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - Unit of Work
 - Repository
 
-## Fluxo
+<a href="https://github.com/users/MateusMaceedo/projects/1/views/1">
+   <img src="https://github.com/MateusMaceedo/Impulsionatech-Gerenciador-Contas/blob/feature/MigracaoDotnet6/img/MultiContas-Cloud-Native-Decision-Log.png?raw=true" alt="multi-contas logo" title="multiContasContainers" align="center" />
+</a>
+
+ 🚨 *Clique na imagem acima para ver ler sobre as decisões técncias do projeto*
+
+## Fluxo AWS
+>Nota: Esse foi o desenho inicial da solução, incialmente foi construido somente com dois MS, dividindo a responsabilidade entre camadas, aos poucos estou realizando um refactor no projeto, incluindo novas praticas e formas diferente, de se trabalhar com desenvolvimento de DevOps em projetos reais.
 <h1 align="center">
   <img src="https://github.com/MateusMaceedo/Impulsionatech-Gerenciador-Contas/blob/feature/MigracaoDotnet6/img/Fluxo%20contas%20bancarias.drawio.png?raw=true">
 </h1>
 
-## News
+## Entendendo os serviços e fluxo atual
+<h1 align="center">
+  <img src="https://github.com/MateusMaceedo/Impulsionatech-Gerenciador-Contas/blob/feature/MigracaoDotnet6/img/Fluxo%20Multi%20Contas.drawio.png?raw=true">
+</h1>
+
+## Noticias
+- Ainda em fase de migração de tecnologias e implementações das mesmas.
 
 **v1.0 - 30/12/2022**
-- Migrated for .NET 6.0
-- All dependencies is up to date
+- Migrado para .NET 6.0
+- Todas as dependências estão atualizadas
 
-## Disclaimer:
-- **NOT** intended to be a definitive solution
-- Beware to use in production way
-- Maybe you don't need a lot of implementations that is included, try avoid the **over engineering**
+## Isenção de responsabilidade:
+- **NÃO** pretende ser uma solução definitiva
+- Cuidado para usar no modo de produção
+- Talvez você não precise de muitas implementações incluídas, tente evitar o **excesso de engenharia**
 
 ## Pull-Requests
-Make a contact! Don't submit PRs for extra features, all the new features are planned
-
-## We are Online:
-See the project running on <a href="http://equinoxproject.azurewebsites.net" target="_blank">Azure</a>
+Faça um contato! Não envie PRs para recursos extras, todos os novos recursos estão planejados
 
 ## 👨🏻‍🚀 Sobre mim
 <a href="https://www.linkedin.com/in/mateus-macedo-937a32163/">

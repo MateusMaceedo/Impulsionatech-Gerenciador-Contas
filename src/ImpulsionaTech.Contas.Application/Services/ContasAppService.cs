@@ -4,6 +4,7 @@ using ImpulsionaTech.Contas.Application.EventSourcedNormalizers;
 using ImpulsionaTech.Contas.Application.Interfaces;
 using ImpulsionaTech.Contas.Application.ViewModels;
 using ImpulsionaTech.Contas.Domain.Interfaces;
+using ImpulsionaTech.Contas.Infra.Data.Repository.EventSourcing;
 
 namespace ImpulsionaTech.Contas.Application.Services
 {
@@ -11,6 +12,8 @@ namespace ImpulsionaTech.Contas.Application.Services
   {
     private readonly IMapper _mapper;
     private readonly IContasRepository _contasRepository;
+    private readonly IEventStoreRepository _eventStoreRepository;
+
 
     public void Dispose()
     {
