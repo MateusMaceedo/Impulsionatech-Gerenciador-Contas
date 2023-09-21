@@ -85,3 +85,59 @@ Faça um contato! Não envie PRs para recursos extras, todos os novos recursos e
  <img style="border-radius:50%" width="100px; "src="https://avatars.githubusercontent.com/u/63172367?s=460&u=11fd26ea8a7f5663d7707d7ef254e4f8bfca1b05&v=4"/>
  <p>Mateus Macedo</p>
 </a>
+
+**Cenário 1: Requisições Simples de Leitura (GET)**
+
+- Objetivo: Medir o desempenho básico da API ao lidar com solicitações de leitura simples.
+
+- Cenário:
+  - Realize um teste de carga com um número crescente de solicitações GET.
+  - Comece com 10 usuários virtuais e aumente gradualmente até atingir 100, 500, 1000, etc.
+  - Registre o TPS (Transações Por Segundo) e o RPS (Requisições Por Segundo) em cada nível de carga.
+  - Meça o tempo de resposta médio.
+
+**Cenário 2: Requisições de Gravação (POST/GET)**
+
+- Objetivo: Avaliar o desempenho da API ao lidar com solicitações de gravação, como POST e GET.
+
+- Cenário:
+  - Realize um teste de carga com solicitações de gravação (por exemplo, POST para criar recursos).
+  - Varie a carga de trabalho com diferentes tamanhos de carga (número de solicitações de gravação por segundo).
+  - Registre o TPS, RPS e tempo de resposta médio.
+  - Avalie a latência da API.
+
+**Cenário 3: Autenticação e Autorização**
+
+- Objetivo: Avaliar o desempenho da API quando há autenticação e autorização envolvidas.
+
+- Cenário:
+  - Realize um teste de carga que inclua solicitações autenticadas.
+  - Varie a carga de trabalho com diferentes perfis de usuário (por exemplo, usuários autenticados vs. não autenticados).
+  - Registre o TPS, RPS e tempo de resposta médio para cada perfil.
+  - Avalie como a autenticação afeta o desempenho.
+
+**Cenário 4: Testes de Estresse**
+
+- Objetivo: Avaliar como a API se comporta sob cargas de trabalho extremas.
+
+- Cenário:
+  - Realize um teste de estresse aumentando a carga até que o sistema atinja um estado de degradação.
+  - Registre o TPS, RPS, tempo de resposta médio e erros.
+  - Identifique o ponto em que o sistema começa a degradar o desempenho.
+
+**Cenário 5: Testes de Longa Duração**
+
+- Objetivo: Avaliar como a API se comporta em cargas de trabalho sustentadas ao longo do tempo.
+
+- Cenário:
+  - Realize testes de longa duração que simulem um uso contínuo da API.
+  - Registre métricas de desempenho ao longo do tempo, incluindo TPS, RPS e uso de recursos (CPU, memória, etc.).
+
+**Cenário 6: Testes de Pico**
+
+- Objetivo: Avaliar como a API lida com picos repentinos de tráfego.
+
+- Cenário:
+  - Realize testes que simulem picos de tráfego repentinos.
+  - Registre o tempo de resposta, TPS e RPS durante os picos.
+  - Avalie se a API é escalável para atender aos picos de demanda.
